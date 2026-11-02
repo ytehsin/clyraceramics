@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clyra Ceramics</title>
+<meta name="description" content="Clyra Ceramics: hand-painted ceramic jars, oil bottles, salad and handi sets, dinnerware and gift sets. Bulk, wholesale and gifting orders. Worldwide delivery.">
+<meta property="og:title" content="Clyra Ceramics">
+<meta property="og:description" content="Hand-painted ceramic jars, bottles, serveware and gift sets. Worldwide delivery.">
+<meta property="og:image" content="https://clyraceramics.in/img/showroom-01.webp">
+<meta property="og:url" content="https://clyraceramics.in/">
+<link rel="canonical" href="https://clyraceramics.in/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f2225'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='36' fill='%23fff'%3EC%3C/text%3E%3C/svg%3E">
+<style>body{margin:0;font-size:14px}img{max-width:100%}</style>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: clean manufacturer-catalogue (after the reference) — white ground, full-bleed photo hero, italic serif headings centred over sections, bordered product cards with solid black buttons, light-stone bands for story sections */
+:root{
+  color-scheme:light;
+  --white:#ffffff;
+  --stone:#f5f3ef;     /* light band */
+  --ink:#1f2225;       /* buttons, footer */
+  --text:#2b2e31;
+  --muted:#6c6f73;
+  --line:#e5e2dc;
+  --taupe:#8c7a5c;     /* serif heading accent */
+  --serif:"Cormorant Garamond","Cormorant",Garamond,"Times New Roman",serif;
+  --sans:"Manrope","Segoe UI",system-ui,sans-serif;
+  --maxw:1240px;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+html,body{overflow-x:clip}
+body{background:var(--white);color:var(--text);font-family:var(--sans);font-size:15.5px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--white)}
+.wrap{max-width:var(--maxw);margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+section .wrap>*{min-width:0}
+h1,h2,h3{margin:0;font-weight:500;text-wrap:balance}
+h1,h2{font-family:var(--serif);font-style:italic;font-weight:400;line-height:1.08;letter-spacing:-.005em}
+p{margin:0}
+a{color:inherit}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--taupe);outline-offset:3px}
+.ey{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--taupe)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;font:600 12.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;transition:background .2s,color .2s}
+.btn:hover{background:#fff;color:var(--ink)}
+.btn.line{background:transparent;color:var(--ink)}
+.btn.line:hover{background:var(--ink);color:#fff}
+.btn.light{background:#fff;color:var(--ink);border-color:#fff}
+.btn.light:hover{background:transparent;color:#fff}
+
+/* Utility bar + header */
+.util{background:var(--ink);color:#d9d6d0;font-size:12.5px}
+.util .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:8px}
+.util span{display:inline-flex;gap:18px;flex-wrap:wrap}
+.util a{text-decoration:none}
+.util a:hover{color:#fff}
+.social{display:flex;gap:10px}
+.social a{width:36px;height:36px;border:1px solid currentColor;border-radius:50%;display:grid;place-items:center;opacity:.85}
+.social a:hover{opacity:1}
+.social svg{width:17px;height:17px}
+.wa-menu{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(76px + env(safe-area-inset-bottom,0px));z-index:15;background:#fff;border:1px solid var(--line);box-shadow:0 12px 30px rgba(0,0,0,.15);display:grid;min-width:230px}
+.wa-menu a{display:grid;gap:2px;padding:14px 18px;text-decoration:none;border-bottom:1px solid var(--line)}
+.wa-menu a:last-child{border-bottom:0}
+.wa-menu a:hover{background:var(--stone)}
+.wa-menu small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.wa-menu b{font-size:15px}
+.sent{border:1px solid #2f6b4a;background:#f1f7f3;padding:18px;display:grid;gap:6px}
+.fallback{display:flex;gap:10px;flex-wrap:wrap}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--white);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:14px}
+.logo{display:grid;text-decoration:none;line-height:1;justify-items:center}
+.logo b{font-family:var(--serif);font-weight:500;font-size:34px;letter-spacing:.12em}
+.logo small{font-size:8.5px;letter-spacing:.34em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.top nav{display:flex;gap:26px;font-size:14px;font-weight:500}
+.top nav a{text-decoration:none;position:relative;padding-block:6px}
+.top nav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--ink);transition:right .25s}
+.top nav a:hover::after{right:0}
+.top .right{display:flex;align-items:center;gap:14px}
+.count{font-size:13px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.count b{min-width:22px;height:22px;border-radius:50%;background:var(--stone);border:1px solid var(--line);display:inline-grid;place-items:center;font-size:11.5px}
+.menu{display:none;background:none;border:0;padding:8px;cursor:pointer}
+.menu i{display:block;width:24px;height:1.5px;background:var(--ink);margin:5px 0}
+@media (max-width:980px){
+  .top nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;gap:0;padding:8px max(18px,env(safe-area-inset-left,0px))}
+  .top nav.open{display:flex}
+  .top nav a{padding:12px 0;border-bottom:1px solid var(--line)}
+  .menu{display:block}
+  .top .right .btn{display:none}
+}
+
+/* Hero slider */
+.hero{position:relative;height:clamp(460px,72vh,720px);overflow:hidden;background:#2a2622}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
+.slide.on{opacity:1}
+.slide img{width:100%;height:100%;object-fit:cover;transform:scale(1.04);transition:transform 7s ease}
+.slide.on img{transform:scale(1)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,17,14,.25),rgba(20,17,14,.55))}
+.hero .hcopy{position:absolute;inset:0;z-index:2;display:grid;place-content:center;justify-items:center;text-align:center;gap:20px;color:#fff;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+.hero h1{font-size:clamp(46px,6.4vw,88px)}
+.hero p{font-size:clamp(16px,1.6vw,19px);max-width:46ch;font-weight:500}
+.hero .btns{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:6px}
+.dots{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);z-index:3;display:flex;gap:8px}
+.dots button{width:9px;height:9px;border-radius:50%;border:1px solid #fff;background:transparent;padding:0;cursor:pointer}
+.dots button[aria-current="true"]{background:#fff}
+
+section{padding-block:88px}
+.center{text-align:center;display:grid;justify-items:center;gap:12px;margin-bottom:44px}
+.center h2{font-size:clamp(38px,4.4vw,56px);color:var(--text)}
+.center p{max-width:60ch;color:var(--muted)}
+
+/* Collections carousel */
+.carousel{position:relative}
+.track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3*20px)/4);gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.track::-webkit-scrollbar{display:none}
+.col{scroll-snap-align:start;text-decoration:none;display:grid;gap:14px;text-align:center;cursor:pointer;background:none;border:0;padding:0;font:inherit;color:inherit}
+.col .im{aspect-ratio:1;overflow:hidden;background:var(--stone)}
+.col img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.col:hover img{transform:scale(1.05)}
+.col span{font-size:14.5px;font-weight:500}
+.arrow{position:absolute;top:calc(50% - 40px);z-index:2;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:17px;display:grid;place-items:center;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.arrow.l{left:-14px}.arrow.r{right:-14px}
+@media (max-width:900px){.track{grid-auto-columns:calc((100% - 20px)/2.3)}.arrow{display:none}}
+
+/* Intro split */
+.intro{background:var(--stone)}
+.intro .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.intro h2{font-size:clamp(40px,4.8vw,64px);color:var(--taupe)}
+.intro .txt{display:grid;gap:22px;max-width:46ch}
+.intro .txt p{color:var(--muted);font-size:16px}
+.trio{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:12px}
+.trio img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.trio img:nth-child(2){margin-top:36px}
+@media (max-width:900px){.intro .wrap{grid-template-columns:1fr;gap:36px}}
+
+/* Products */
+.tabs{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:36px}
+.chip{font:600 12.5px/1 var(--sans);letter-spacing:.06em;padding:11px 16px;border:1px solid var(--line);background:#fff;color:var(--muted);cursor:pointer}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+@media (max-width:1050px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:720px){.grid{grid-template-columns:repeat(2,1fr);gap:12px}}
+.card{border:1px solid var(--line);background:#fff;padding:10px;display:grid;gap:12px;align-content:start;min-width:0;transition:box-shadow .3s,border-color .3s}
+.card:hover{box-shadow:0 10px 30px rgba(31,34,37,.08);border-color:#d6d2ca}
+.card .im{position:relative;aspect-ratio:1;overflow:hidden;background:var(--stone)}
+.card .im img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .45s}
+.card .im img.alt{opacity:0}
+.card:hover .im img.alt{opacity:1}
+.card .badge{position:absolute;top:8px;left:8px;z-index:2;background:#fff;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;padding:5px 8px}
+.card h3{font-size:14.5px;font-weight:600;text-align:center;line-height:1.35;padding-inline:4px}
+.card .meta{font-size:12.5px;color:var(--muted);text-align:center;margin-top:-6px}
+.sw{display:flex;gap:7px;justify-content:center;flex-wrap:wrap}
+.sw button{width:17px;height:17px;border-radius:50%;border:1px solid rgba(0,0,0,.18);padding:0;cursor:pointer}
+.sw button[aria-pressed="true"]{box-shadow:0 0 0 2px #fff,0 0 0 3px var(--ink)}
+.add{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:13px 10px;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;transition:background .2s,color .2s}
+.add:hover{background:#fff;color:var(--ink)}
+.add.on{background:#fff;color:var(--ink)}
+.more{display:flex;justify-content:center;margin-top:40px}
+
+/* Showroom gallery */
+.works{background:var(--stone)}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:12px}
+.gal figure{margin:0;overflow:hidden;background:#e9e5de}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .9s ease}
+.gal figure:hover img{transform:scale(1.04)}
+.gal .w2{grid-column:span 2}
+.gal .h2{grid-row:span 2}
+@media (max-width:820px){.gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:170px}}
+
+/* Wholesale */
+.whole .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.whole h2{font-size:clamp(40px,4.6vw,60px)}
+.whole .txt{display:grid;gap:20px}
+.whole .txt p{color:var(--muted);max-width:48ch}
+.whole ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.whole li{display:flex;gap:12px;align-items:baseline}
+.whole li::before{content:"";width:6px;height:6px;background:var(--taupe);transform:rotate(45deg);flex:none;translate:0 -2px}
+.capt{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.capt figure{margin:0;display:grid;gap:10px}
+.capt img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.capt figcaption{font-size:13px;color:var(--muted);text-align:center}
+@media (max-width:900px){.whole .wrap{grid-template-columns:1fr;gap:36px}}
+.stats{border-block:1px solid var(--line);margin-top:72px}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.stats div{padding:30px 20px;text-align:center;display:grid;gap:4px;border-left:1px solid var(--line)}
+.stats div:first-child{border-left:0}
+.stats b{font-family:var(--serif);font-size:clamp(36px,4vw,50px);font-weight:500;line-height:1;font-variant-numeric:tabular-nums}
+.stats span{font-size:13px;color:var(--muted);letter-spacing:.06em}
+@media (max-width:720px){.stats .wrap{grid-template-columns:1fr 1fr}.stats div:nth-child(3){border-left:0}.stats div:nth-child(n+3){border-top:1px solid var(--line)}}
+
+/* Gifting */
+.gift{position:relative;color:#fff;padding:0;overflow:hidden}
+.gift .bg{position:absolute;inset:0;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:100%}
+.gift .bg img{min-height:0}
+.gift .bg img{width:100%;height:100%;object-fit:cover}
+.gift::after{content:"";position:absolute;inset:0;background:rgba(20,17,14,.62)}
+.gift .wrap{position:relative;z-index:2;padding-block:110px;display:grid;justify-items:center;text-align:center;gap:18px}
+.gift h2{font-size:clamp(40px,5vw,66px)}
+.gift p{max-width:52ch;font-size:16.5px}
+.gift .ey{color:#e3d4b8}
+
+/* Why choose us */
+.why .grid6{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.why .it{border:1px solid var(--line);padding:30px 26px;display:grid;gap:10px;align-content:start;transition:background .3s}
+.why .it:hover{background:var(--stone)}
+.why .n{font-family:var(--serif);font-style:italic;font-size:42px;color:var(--taupe);line-height:1}
+.why h3{font-size:17px;font-weight:600}
+.why p{color:var(--muted);font-size:14.5px}
+@media (max-width:900px){.why .grid6{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.why .grid6{grid-template-columns:1fr}}
+
+/* FAQ */
+.faq{background:var(--stone)}
+.faq .list{max-width:860px;margin:0 auto;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 4px;font-size:16.5px;font-weight:600}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:400 26px/1 var(--sans);color:var(--taupe);transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 4px 22px;color:var(--muted);max-width:70ch}
+
+/* Contact */
+.contact .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;border:1px solid var(--line)}
+.contact .pic{position:relative;min-height:420px}
+.contact .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.contact .form{padding:44px;display:grid;gap:22px;align-content:start}
+.contact h2{font-size:clamp(38px,4.2vw,54px)}
+.info{display:flex;gap:28px;flex-wrap:wrap}
+.ci{display:grid;gap:2px}
+.ci .k{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.ci .v{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-weight:600;overflow-wrap:anywhere}
+.copy{font:600 10.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:6px 9px;border:1px solid var(--line);background:#fff;color:var(--muted);cursor:pointer}
+.sel{display:grid;gap:8px;background:var(--stone);padding:16px}
+.sel ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.sel li{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:center;font-size:13.5px;font-weight:500}
+.sel li img{width:44px;height:44px;object-fit:cover}
+.sel li button{border:0;background:none;color:var(--muted);font-size:11px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.sel .none{font-size:13.5px;color:var(--muted)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:18px 22px}
+form .full{grid-column:1/-1}
+.f{display:grid;gap:4px;min-width:0}
+.f label{font-size:13px;font-weight:600}
+input,select,textarea{font:inherit;font-size:15px;color:var(--text);background:transparent;border:0;border-bottom:1px solid #cfcbc4;border-radius:0;padding:9px 0;width:100%}
+textarea{min-height:90px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-bottom-color:var(--ink)}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.seg label{font-size:13px;font-weight:500;display:flex;align-items:center;gap:8px;padding:9px 14px;border:1px solid var(--line);cursor:pointer}
+.seg input{width:auto;accent-color:var(--ink);border:0;padding:0}
+.seg label:has(input:checked){border-color:var(--ink)}
+.err{color:#a3321f;font-size:13.5px}
+.done{border:1px solid var(--ink);padding:18px;display:grid;gap:10px}
+.done pre{white-space:pre-wrap;font:13.5px/1.6 var(--sans);margin:0;color:var(--muted);background:var(--stone);padding:12px;overflow-x:auto}
+@media (max-width:900px){.contact .wrap{grid-template-columns:1fr}.contact .pic{min-height:260px}.contact .form{padding:28px 20px}}
+@media (max-width:520px){form{grid-template-columns:1fr}}
+
+/* Footer */
+footer{background:var(--ink);color:#bdb9b2;font-size:14px}
+footer .wrap{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:36px;padding-block:64px 24px}
+footer .logo{justify-items:start;color:#fff}
+footer .logo small{color:#8f8b85}
+footer h4{color:#fff;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 16px;font-weight:600}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+footer a{text-decoration:none}
+footer a:hover{color:#fff}
+footer .legal{grid-column:1/-1;border-top:1px solid #3a3d40;padding-top:20px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12.5px}
+@media (max-width:800px){footer .wrap{grid-template-columns:1fr 1fr}footer .wrap>div:first-child{grid-column:1/-1}}
+
+/* Floating WhatsApp + modal + toast */
+.wa{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:15;display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#fff;text-decoration:none;font:700 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:14px 20px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.wa svg{width:18px;height:18px}
+.modal{position:fixed;inset:0;z-index:30;display:grid;place-items:center;background:rgba(20,17,14,.55);padding:20px max(16px,env(safe-area-inset-right,0px)) 20px max(16px,env(safe-area-inset-left,0px))}
+.modal .box{background:#fff;width:min(820px,100%);max-height:calc(100vh - 40px);overflow:auto;display:grid;grid-template-columns:.8fr 1.2fr;position:relative}
+.modal .box>img{width:100%;height:100%;object-fit:cover;min-height:380px}
+.modal .in{padding:34px;display:grid;gap:18px;align-content:start}
+.modal h2{font-size:34px;font-style:normal;font-family:var(--sans);font-weight:500;font-size:22px;text-align:center}
+.modal .x{position:absolute;top:10px;right:12px;border:0;background:#fff;font-size:24px;line-height:1;width:36px;height:36px;cursor:pointer;z-index:2}
+@media (max-width:700px){.modal .box{grid-template-columns:1fr}.modal .box>img{display:none}.modal .in{padding:28px 20px}}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,16px);background:var(--ink);color:#fff;padding:12px 20px;font-size:13.5px;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;z-index:25;max-width:calc(100% - 32px);text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+
+<div class="util"><div class="wrap">
+  <span><a href="tel:+917983895342">☎ +91 79838 95342</a><a href="tel:+918368691849">+91 83686 91849</a><a href="mailto:clyraceramics@gmail.com">✉ clyraceramics@gmail.com</a></span>
+  <span><a href="https://www.instagram.com/clyraceramics/" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/@ClyraCeramics" target="_blank" rel="noopener">YouTube</a><a href="#faq">FAQs</a><a href="#contact">Bulk orders</a></span>
+</div></div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top"><b>CLYRA</b><small>Hand-painted ceramics</small></a>
+    <nav id="nav" aria-label="Main"><a href="#top">Home</a><a href="#collections">Our Collection</a><a href="#about">About Us</a><a href="#products">Products</a><a href="#gifting">Gifting</a><a href="#contact">Contact Us</a></nav>
+    <div class="right">
+      <button class="btn" type="button" data-quote>Request free quote</button>
+      <button class="menu" type="button" id="menu" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero" id="hero">
+    <div class="slide on"><img src="img/showroom-01.webp" alt="Shelf of hand-painted blue pottery dinnerware" fetchpriority="high"></div>
+    <div class="slide"><img src="img/showroom-05.webp" alt="Hand-painted casseroles and plates in green, red and teal"></div>
+    <div class="slide"><img src="img/showroom-09.webp" alt="Teal floral serving bowls and plates"></div>
+    <div class="hcopy">
+      <span class="ey" style="color:#e9dcc4">Hand-painted in India</span>
+      <h1>Hand-painted Ceramics</h1>
+      <p>Jars, oil bottles, serving sets and dinnerware, painted stroke by stroke for kitchens, cafés and stores worldwide.</p>
+      <div class="btns"><a class="btn light" href="#products">Explore products</a><button class="btn line" type="button" data-quote style="color:#fff;border-color:#fff">Get bulk pricing</button></div>
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <section id="collections">
+    <div class="wrap">
+      <div class="center"><h2>Explore Our Collections</h2></div>
+      <div class="carousel">
+        <button class="arrow l" type="button" aria-label="Previous collections" data-tr="-1">‹</button>
+        <div class="track" id="track"></div>
+        <button class="arrow r" type="button" aria-label="Next collections" data-tr="1">›</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="intro">
+    <div class="wrap">
+      <div class="txt">
+        <span class="ey">About Clyra</span>
+        <h2>Painted by hand, made for every kitchen.</h2>
+        <p>Clyra Ceramics makes hand-painted storage jars, oil and vinegar bottles, salad and handi sets, and dinnerware. Our designs draw on Mughal art, Jaipuri painting and Indian heritage patterns, finished with turned wooden lids.</p>
+        <p>We sell to homes and supply retailers, cafés, hotels and corporate gifting teams in India and worldwide.</p>
+        <div><a class="btn" href="#works">See our showroom</a></div>
+      </div>
+      <div class="trio">
+        <img src="img/jaipuri-painting-jar-aqua-1.webp" alt="Aqua Jaipuri painted jar on a wooden table" loading="lazy">
+        <img src="img/mughal-art-jar-blue-1.webp" alt="Blue Mughal Art Jar on marble" loading="lazy">
+        <img src="img/oil-vinegar-bottle-sunflower-1.webp" alt="Sunflower painted oil bottle" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="wrap">
+      <div class="center"><h2>Explore Our Products</h2><p>Tap a colour dot to see each variant. Add pieces to your enquiry and we'll send prices and availability.</p></div>
+      <div class="tabs" role="group" aria-label="Filter products" id="tabs"></div>
+      <div class="grid" id="grid"></div>
+      <div class="more"><button class="btn line" type="button" id="moreBtn">View all products</button></div>
+    </div>
+  </section>
+
+  <section id="works" class="works">
+    <div class="wrap">
+      <div class="center"><h2>Our Showroom</h2><p>Plates, casseroles, bowls and serving sets in blue pottery, botanical and heritage designs. Ask us for the full dinnerware range.</p></div>
+      <div class="gal">
+        <figure class="w2 h2"><img src="img/showroom-01.webp" alt="Blue pottery dinnerware on display" loading="lazy"></figure>
+        <figure><img src="img/showroom-03.webp" alt="Blue floral dinnerware with cutlery" loading="lazy"></figure>
+        <figure><img src="img/showroom-04.webp" alt="Red mandala plates and bowls" loading="lazy"></figure>
+        <figure class="w2"><img src="img/showroom-06.webp" alt="Speckled pink and gold plates and bowls" loading="lazy"></figure>
+        <figure class="h2"><img src="img/showroom-11.webp" alt="Yellow painted dinnerware set" loading="lazy"></figure>
+        <figure class="w2"><img src="img/showroom-08.webp" alt="Botanical print plates and bowls" loading="lazy"></figure>
+        <figure><img src="img/showroom-10.webp" alt="Brown floral plates and bowls" loading="lazy"></figure>
+        <figure class="w2"><img src="img/showroom-07.webp" alt="Colourful hand-painted casseroles and plates" loading="lazy"></figure>
+        <figure class="w2"><img src="img/showroom-02.webp" alt="Pink speckled plates and bowls" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="whole" id="wholesale">
+    <div class="wrap">
+      <div class="txt">
+        <span class="ey">For businesses</span>
+        <h2>Wholesale made simple</h2>
+        <p>Tell us the pieces, colours and quantities you need. We'll reply with trade pricing, stock and delivery time.</p>
+        <ul><li>Retail and home-décor stores</li><li>Cafés, restaurants and hotels</li><li>Corporate and festive gifting</li><li>Wedding return gifts and hampers</li></ul>
+        <div><button class="btn" type="button" data-quote>Get bulk pricing</button></div>
+      </div>
+      <div class="capt">
+        <figure><img src="img/heritage-design-3-pcs-handi-set-blue-1.webp" alt="Blue Heritage handi set" loading="lazy"><figcaption>Heritage Handi Set · Blue</figcaption></figure>
+        <figure><img src="img/moon-pattern-set-of-4-1.webp" alt="Moon Pattern tea, coffee, sugar and salt jars on a wooden tray" loading="lazy"><figcaption>Moon Pattern Set of 4</figcaption></figure>
+      </div>
+    </div>
+    <div class="stats"><div class="wrap">
+      <div><b>300+</b><span>Products</span></div>
+      <div><b>7</b><span>Collections</span></div>
+      <div><b>B2B</b><span>Bulk &amp; gifting orders</span></div>
+      <div><b>Worldwide</b><span>Delivery</span></div>
+    </div></div>
+  </section>
+
+  <section id="gifting" class="gift">
+    <div class="bg" aria-hidden="true"><img src="img/showroom-12.webp" alt="" loading="lazy"><img src="img/showroom-14.webp" alt="" loading="lazy"><img src="img/showroom-13.webp" alt="" loading="lazy"></div>
+    <div class="wrap">
+      <span class="ey">Gifting</span>
+      <h2>Boxed sets for every occasion</h2>
+      <p>Mugs, cups and tea sets with gold detailing, packed in presentation boxes for weddings, Diwali and corporate gifting.</p>
+      <button class="btn light" type="button" data-quote data-kind="t-gift">Plan a gift order</button>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="wrap">
+      <div class="center"><h2>Why Choose Us</h2></div>
+      <div class="grid6">
+        <div class="it"><span class="n">01</span><h3>Painted by hand</h3><p>Every motif is brushed by hand. No prints or decals.</p></div>
+        <div class="it"><span class="n">02</span><h3>Wooden lids</h3><p>Storage jars come with turned wooden lids that keep contents fresh.</p></div>
+        <div class="it"><span class="n">03</span><h3>Wide range</h3><p>Jars, bottles, salad and handi sets, dinnerware and gift boxes in one place.</p></div>
+        <div class="it"><span class="n">04</span><h3>Bulk ready</h3><p>We handle orders for stores, cafés, hotels and corporate gifting.</p></div>
+        <div class="it"><span class="n">05</span><h3>Many colourways</h3><p>Popular designs come in several colours to match any kitchen or brand.</p></div>
+        <div class="it"><span class="n">06</span><h3>Delivered worldwide</h3><p>Packed with care and shipped to homes and stores in India and abroad.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="wrap">
+      <div class="center"><h2>Frequently Asked Questions</h2></div>
+      <div class="list">
+        <details open><summary>How do I place an order?</summary><p>Add the pieces you like to your enquiry, fill in the contact form and press Send. It reaches us by email, or you can message us on WhatsApp. We'll confirm prices, stock and delivery before you pay.</p></details>
+        <details><summary>Do you take bulk and wholesale orders?</summary><p>Yes. We supply retailers, cafés, restaurants, hotels and companies. Choose "Business" in the form and tell us the quantities you need.</p></details>
+        <details><summary>Can I get a custom colour or design?</summary><p>For larger orders we can discuss colour changes and custom designs. Describe what you have in mind in your enquiry.</p></details>
+        <details><summary>Do you deliver outside India?</summary><p>Yes, we deliver worldwide. Every piece is packed carefully for transit. Shipping cost and delivery time depend on the destination and order size.</p></details>
+        <details><summary>Are the pieces food safe?</summary><p>Our jars and serveware are made for everyday kitchen use. Ask us about care for any specific piece.</p></details>
+        <details><summary>Why does my piece look slightly different from the photo?</summary><p>Each piece is painted by hand, so brushwork and colour vary slightly. No two are exactly alike.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="pic"><img src="img/mughal-art-jar-red-1.webp" alt="Red Mughal Art Jar" loading="lazy"></div>
+      <div class="form">
+        <span class="ey">Contact us</span>
+        <h2>Let's get in touch</h2>
+        <div class="info">
+          <div class="ci"><span class="k">Email</span><div class="v"><a id="mail" href="mailto:clyraceramics@gmail.com">clyraceramics@gmail.com</a><button class="copy" type="button" data-copy="mail">Copy</button></div></div>
+          <div class="ci"><span class="k">Phone · WhatsApp</span><div class="v"><a href="https://wa.me/917983895342" target="_blank" rel="noopener">+91 79838 95342</a></div><div class="v"><a href="https://wa.me/918368691849" target="_blank" rel="noopener">+91 83686 91849</a></div></div>
+          <div class="ci"><span class="k">Follow us</span><div class="v social" style="color:var(--ink)"><a href="https://www.instagram.com/clyraceramics/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a><a href="https://www.youtube.com/@ClyraCeramics" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-3.2.5-4.8s-.1-3.2-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></svg></a></div></div>
+        </div>
+        <div class="sel"><span class="ci"><span class="k">Your enquiry</span></span><div id="sel"></div></div>
+        <form id="enq" novalidate>
+          <div class="f full"><div class="seg">
+            <label><input type="radio" name="type" id="t-retail" value="Personal order" checked> Personal</label>
+            <label><input type="radio" name="type" id="t-gift" value="Gifting"> Gifting</label>
+            <label><input type="radio" name="type" id="t-trade" value="Business / bulk"> Business</label>
+          </div></div>
+          <div class="f"><label for="f-name">Full name</label><input id="f-name" autocomplete="name"></div>
+          <div class="f"><label for="f-phone">Phone no.</label><input id="f-phone" type="tel" autocomplete="tel"></div>
+          <div class="f"><label for="f-email">Email</label><input id="f-email" type="email" autocomplete="email"></div>
+          <div class="f"><label for="f-qty">Quantity</label><select id="f-qty"><option>1–5 pieces</option><option>6–24 pieces</option><option>25–100 pieces</option><option>100+ pieces</option></select></div>
+          <div class="f full"><label for="f-msg">Message</label><textarea id="f-msg" placeholder="Colours, quantities, city, delivery date…"></textarea></div>
+          <p class="err full" id="err" hidden>Please add your name and a valid email or phone number.</p>
+          <div class="full"><button class="btn" type="submit" id="sendBtn">Send enquiry</button></div>
+          <div class="sent full" id="sent" hidden><strong>Thank you. Your enquiry has been sent.</strong><span style="color:var(--muted);font-size:14px">We'll reply by email or WhatsApp.</span></div>
+          <div class="done full" id="done" hidden>
+            <strong>We couldn't send it from here.</strong>
+            <p style="color:var(--muted);font-size:13.5px">Send it to us directly instead:</p>
+            <pre id="out"></pre>
+            <div class="fallback"><a class="btn" id="outMail" href="mailto:clyraceramics@gmail.com" target="_blank" rel="noopener">Email it</a><a class="btn line" id="outWa" href="https://wa.me/917983895342" target="_blank" rel="noopener">WhatsApp it</a><button class="btn line" type="button" id="copyOut">Copy</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><a class="logo" href="#top"><b>CLYRA</b><small>Hand-painted ceramics</small></a><p style="margin-top:18px;max-width:34ch">Hand-painted ceramic jars, bottles, serveware and dinnerware for homes and businesses in India and worldwide.</p><div class="social" style="margin-top:20px"><a href="https://www.instagram.com/clyraceramics/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a><a href="https://www.youtube.com/@ClyraCeramics" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-3.2.5-4.8s-.1-3.2-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></svg></a><a href="https://wa.me/917983895342" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg></a></div></div>
+    <div><h4>Collections</h4><ul id="footcats"></ul></div>
+    <div><h4>Company</h4><ul><li><a href="#about">About us</a></li><li><a href="#works">Showroom</a></li><li><a href="#wholesale">Wholesale</a></li><li><a href="#gifting">Gifting</a></li><li><a href="https://www.amazon.in/l/27943762031?me=AZB3UN156F3G9" target="_blank" rel="noopener">Shop on Amazon</a></li><li><a href="https://www.meesho.com/CLYRACERAMICS?ms=2" target="_blank" rel="noopener">Shop on Meesho</a></li></ul></div>
+    <div><h4>Need help?</h4><ul><li><a href="#faq">FAQs</a></li><li><a href="#contact">Contact us</a></li><li><a href="mailto:clyraceramics@gmail.com">clyraceramics@gmail.com</a></li><li><a href="tel:+917983895342">+91 79838 95342</a></li><li><a href="tel:+918368691849">+91 83686 91849</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li></ul></div>
+    <div class="legal"><span>© 2026 Clyra Ceramics. All rights reserved.</span><span><a href="terms.html">Terms &amp; Conditions</a> · <a href="privacy-policy.html">Privacy Policy</a></span></div>
+  </div>
+</footer>
+
+<div class="wa-menu" id="waMenu" hidden><a href="https://wa.me/917983895342" target="_blank" rel="noopener"><small>WhatsApp</small><b>+91 79838 95342</b></a><a href="https://wa.me/918368691849" target="_blank" rel="noopener"><small>WhatsApp</small><b>+91 83686 91849</b></a></div>
+<button class="wa" type="button" id="waBtn" aria-expanded="false" aria-controls="waMenu" style="border:0;cursor:pointer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>WhatsApp us</button>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="box">
+    <img src="img/jaipuri-painting-jar-yellow-1.webp" alt="" loading="lazy">
+    <button class="x" type="button" id="mClose" aria-label="Close">×</button>
+    <div class="in">
+      <h2 id="mTitle">Get a Free Quote</h2>
+      <form id="qform" novalidate>
+        <div class="f full"><label for="q-name">Full name</label><input id="q-name" autocomplete="name"></div>
+        <div class="f full"><label for="q-phone">Phone no.</label><input id="q-phone" type="tel" autocomplete="tel"></div>
+        <div class="f full"><label for="q-email">Email</label><input id="q-email" type="email" autocomplete="email"></div>
+        <div class="f full"><label for="q-msg">Message</label><textarea id="q-msg" placeholder="What would you like a quote for?"></textarea></div>
+        <p class="err full" id="qerr" hidden>Please add your name and a phone number or email.</p>
+        <div class="full"><button class="btn" type="submit" style="width:100%" id="qBtn">Submit</button></div>
+        <div class="sent full" id="qsent" hidden><strong>Thank you. Your request has been sent.</strong><span style="color:var(--muted);font-size:14px">We'll get back to you shortly.</span></div>
+        <div class="done full" id="qdone" hidden><strong>We couldn't send it from here.</strong><pre id="qout"></pre><div class="fallback"><a class="btn" id="qMail" href="mailto:clyraceramics@gmail.com" target="_blank" rel="noopener">Email it</a><a class="btn line" id="qWa" href="https://wa.me/917983895342" target="_blank" rel="noopener">WhatsApp it</a><button class="btn line" type="button" id="qcopy">Copy</button></div></div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const C={black:"#232323",blue:"#2a4c9c",green:"#2f5d46",red:"#b3302a",aqua:"#4fa6a2",yellow:"#e2b53c",brown:"#7a4a2c",pink:"#e9adb8",sunflower:"#e39b2b",grey:"#8d9196",floral:"conic-gradient(#b3302a 0 25%,#2a4c9c 0 50%,#2f7d4f 0 75%,#e2b53c 0)",folk:"conic-gradient(#f4efe6 0 50%,#b3302a 0)"};
+const CATS=[
+  {id:"art",name:"Mughal & Jaipuri Art Jars",cover:"mughal-art-jar-green-1"},
+  {id:"moon",name:"Moon Pattern Jars",cover:"moon-pattern-set-of-4-1"},
+  {id:"jars",name:"Kitchen Storage Jars",cover:"tea-sugar-coffee-jar-400-ml-2"},
+  {id:"bottles",name:"Oil & Vinegar Bottles",cover:"oil-vinegar-bottle-blue-1"},
+  {id:"salad",name:"Salad Sets",cover:"strawberry-design-3-pcs-2"},
+  {id:"handi",name:"Handi & Bowl Sets",cover:"heritage-design-3-pcs-handi-set-green-1"},
+  {id:"serve",name:"Water Jugs",cover:"water-jug-400-ml-1"},
+  {id:"art",name:"Painted Jar Sets of 4",cover:"painted-jar-set-of-4-floral-1",label:"sets"}
+];
+const P=[
+  {n:"Mughal Art Jar",cat:"art",tag:"Bestseller",vars:["red","blue","green","black"],base:"mughal-art-jar-"},
+  {n:"Moon Pattern Jar Set of 4 with Tray",cat:"moon",tag:"New",s:"moon-pattern-set-of-4",m:"Wooden lid & spoon"},
+  {n:"Hand-painted Jar Set of 4",cat:"art",tag:"New",vars:["floral","folk"],base:"painted-jar-set-of-4-"},
+  {n:"Moon Pattern Tea, Sugar & Salt Jars",cat:"moon",s:"moon-tea-sugar-salt-combo",m:"Wooden lid & spoon"},
+  {n:"Jaipuri Painting Jar",cat:"art",vars:["aqua","yellow"],base:"jaipuri-painting-jar-"},
+  {n:"Oil & Vinegar Bottle",cat:"bottles",tag:"6 colours",vars:["sunflower","blue","black","brown","pink","yellow"],base:"oil-vinegar-bottle-"},
+  {n:"Heritage Design 3 Pcs. Handi Set",cat:"handi",vars:["blue","green","grey"],base:"heritage-design-3-pcs-handi-set-"},
+  {n:"Mughal Floral Art Jar",cat:"art",s:"mughal-floral-art-jar"},
+  {n:"Strawberry Design 3 Pcs. Salad Set",cat:"salad",s:"strawberry-design-3-pcs"},
+  {n:"Matka Jar · Cherry",cat:"jars",s:"matka-jar-cherry"},
+  {n:"Matte Tea, Coffee & Sugar Canister Set",cat:"jars",tag:"New",s:"matte-tea-coffee-sugar-set",m:"Wooden lid & spoon"},
+  {n:"Moon Pattern Tea & Sugar Jars",cat:"moon",s:"moon-tea-sugar-combo",m:"Wooden lid & spoon"},
+  {n:"Moon Pattern Coffee Jar",cat:"moon",s:"moon-coffee-jar",m:"Wooden lid & spoon"},
+  {n:"Moon Pattern Sugar Jar",cat:"moon",s:"moon-sugar-jar",m:"Wooden lid & spoon"},
+  {n:"Moon Pattern Salt Jar · 550 ml",cat:"moon",s:"moon-salt-jar",m:"Wooden lid & spoon"},
+  {n:"Tea, Sugar & Coffee Jar Set · 400 ml",cat:"jars",s:"tea-sugar-coffee-jar-400-ml"},
+  {n:"Heritage Design 4 Pcs. Bowl Set",cat:"handi",vars:["blue","grey"],base:"heritage-design-4-pcs-bowl-set-"},
+  {n:"Heritage Design 3 Pcs. Salad Set",cat:"salad",vars:["yellow","grey"],base:"heritage-design-3-pcs-salad-set-"},
+  {n:"Mughal Floral Art Jar · 400 ml",cat:"art",s:"mughal-floral-art-jar-400-ml"},
+  {n:"Floral Design 3 Pcs. Salad Set",cat:"salad",s:"floral-design-3-pcs-salad-set"},
+  {n:"Heart Design 3 Pcs. Salad Set",cat:"salad",s:"heart-design-3-pcs-salad-set"},
+  {n:"Mini Heart Design 3 Pcs. Salad Set",cat:"salad",s:"mini-heart-design-3-pcs-salad-set"},
+  {n:"Flower Leaf Jar",cat:"jars",s:"flower-leaf-jar"},
+  {n:"Tree Design Jar",cat:"jars",s:"tree-design-jar"},
+  {n:"Heart Balloon Jar",cat:"jars",s:"heart-balloon-jar"},
+  {n:"Star Jar",cat:"jars",s:"star-jar"},
+  {n:"Heart Balloon & Star Jar Combo",cat:"jars",s:"heart-balloon-star-jar-combo"},
+  {n:"Tea, Sugar & Coffee Jar Set",cat:"jars",s:"tea-sugar-coffee-jar"},
+  {n:"Tea & Coffee Jar · 500 ml",cat:"jars",s:"tea-coffee-jar-500-ml"},
+  {n:"Tea & Sugar Jar · 500 ml",cat:"jars",s:"tea-sugar-jar-500-ml"},
+  {n:"Sugar & Coffee Jar · 500 ml",cat:"jars",s:"sugar-coffee-jar-500-ml"},
+  {n:"Tea Jar",cat:"jars",s:"tea-jar"},
+  {n:"Tea Jar · 500 ml",cat:"jars",s:"tea-jar-500-ml"},
+  {n:"Coffee Jar · 400 ml",cat:"jars",s:"coffee-jar-400ml"},
+  {n:"Coffee Jar · 500 ml",cat:"jars",s:"coffee-jar-500-ml"},
+  {n:"Sugar Jar · 400 ml",cat:"jars",s:"sugar-jar-400-ml"},
+  {n:"Sugar Jar · 500 ml",cat:"jars",s:"sugar-jar-500-ml"},
+  {n:"Water Jug · 400 ml",cat:"serve",s:"water-jug-400-ml"}
+];
+P.forEach((p,i)=>{p.id="p"+i;p.cur=p.vars?p.vars[0]:null});
+const slugOf=p=>p.vars?p.base+p.cur:p.s;
+const cap=s=>s[0].toUpperCase()+s.slice(1);
+const label=p=>p.n+(p.cur?` · ${cap(p.cur)}`:"");
+
+/* menu */
+const menu=document.getElementById("menu"),nav=document.getElementById("nav");
+menu.addEventListener("click",()=>{const o=nav.classList.toggle("open");menu.setAttribute("aria-expanded",o)});
+nav.addEventListener("click",e=>{if(e.target.closest("a")){nav.classList.remove("open");menu.setAttribute("aria-expanded","false")}});
+
+/* hero slider */
+const slides=[...document.querySelectorAll(".slide")],dots=document.getElementById("dots");let si=0,timer;
+dots.innerHTML=slides.map((_,i)=>`<button type="button" aria-label="Slide ${i+1}" aria-current="${i===0}"></button>`).join("");
+function go(i){si=(i+slides.length)%slides.length;slides.forEach((s,k)=>s.classList.toggle("on",k===si));dots.querySelectorAll("button").forEach((d,k)=>d.setAttribute("aria-current",k===si))}
+function auto(){clearInterval(timer);if(!matchMedia("(prefers-reduced-motion: reduce)").matches)timer=setInterval(()=>go(si+1),5500)}
+dots.addEventListener("click",e=>{const b=e.target.closest("button");if(b){go([...dots.children].indexOf(b));auto()}});auto();
+
+/* collections carousel */
+const track=document.getElementById("track");
+track.innerHTML=CATS.map(c=>`<button class="col" type="button" data-cat="${c.id}"><div class="im"><img src="img/${c.cover}.webp" alt="" loading="lazy"></div><span>${c.name}</span></button>`).join("");
+document.querySelectorAll("[data-tr]").forEach(b=>b.addEventListener("click",()=>track.scrollBy({left:track.clientWidth/2*b.dataset.tr,behavior:"smooth"})));
+const uniq=[...new Map(CATS.filter(c=>!c.label).map(c=>[c.id,c])).values()];
+document.getElementById("footcats").innerHTML=uniq.map(c=>`<li><a href="#products" data-cat="${c.id}">${c.name}</a></li>`).join("");
+
+/* products */
+const tabs=document.getElementById("tabs"),grid=document.getElementById("grid"),moreBtn=document.getElementById("moreBtn");
+const short={moon:"Moon Pattern",art:"Art Jars",jars:"Storage Jars",bottles:"Oil & Vinegar",salad:"Salad Sets",handi:"Handi & Bowls",serve:"Jugs"};
+tabs.innerHTML=`<button class="chip" type="button" data-f="all" aria-pressed="true">All products</button>`+Object.entries(short).map(([k,v])=>`<button class="chip" type="button" data-f="${k}" aria-pressed="false">${v}</button>`).join("");
+grid.innerHTML=P.map(p=>{const s=slugOf(p);return `<article class="card" data-cat="${p.cat}" id="${p.id}">
+  <div class="im">${p.tag?`<span class="badge">${p.tag}</span>`:""}<img class="main" src="img/${s}-1.webp" alt="${label(p)}" loading="lazy"><img class="alt" src="img/${s}-2.webp" alt="" loading="lazy"></div>
+  <h3>${p.n}</h3>
+  ${p.vars?`<div class="sw" role="group" aria-label="Colour">${p.vars.map(c=>`<button type="button" style="background:${C[c]}" aria-label="${cap(c)}" title="${cap(c)}" aria-pressed="${c===p.cur}" data-p="${p.id}" data-c="${c}"></button>`).join("")}</div><span class="meta" data-cn>${cap(p.cur)}</span>`:`<span class="meta">${p.m||"Hand-painted"}</span>`}
+  <button class="add" type="button" data-add="${p.id}">Add to enquiry →</button>
+</article>`}).join("");
+let filt="all",all=false;
+function apply(){let n=0;grid.querySelectorAll(".card").forEach(c=>{const ok=filt==="all"||c.dataset.cat===filt;const show=ok&&(all||filt!=="all"||n<8);if(ok)n++;c.hidden=!show});moreBtn.parentElement.hidden=all||filt!=="all"}
+function filter(f){filt=f;tabs.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===f));apply()}
+tabs.addEventListener("click",e=>{const b=e.target.closest(".chip");if(b)filter(b.dataset.f)});
+moreBtn.addEventListener("click",()=>{all=true;apply()});
+document.querySelectorAll("[data-cat]").forEach(b=>b.addEventListener("click",e=>{e.preventDefault();filter(b.dataset.cat);document.getElementById("products").scrollIntoView({behavior:"smooth"})}));
+apply();
+
+/* enquiry */
+const sel=new Map(),toast=document.getElementById("toast");let tt;
+function say(t){toast.textContent=t;toast.classList.add("show");clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove("show"),2200)}
+function renderSel(){
+  document.getElementById("sel").innerHTML=sel.size?`<ul>${[...sel].map(([k,o])=>`<li><img src="img/${o.s}-1.webp" alt=""><span>${o.label}</span><button type="button" data-rm="${k}">Remove</button></li>`).join("")}</ul>`:`<p class="none">No pieces added yet. Use “Add to enquiry” on any product.</p>`;
+  grid.querySelectorAll(".add").forEach(b=>{const p=P.find(x=>x.id===b.dataset.add);const on=sel.has(p.id+":"+p.cur);b.classList.toggle("on",on);b.textContent=on?"Added ✓":"Add to enquiry →"});
+}
+function add(p){const k=p.id+":"+p.cur;if(sel.has(k)){sel.delete(k);say("Removed from enquiry")}else{sel.set(k,{label:label(p),s:slugOf(p)});say(label(p)+" added to enquiry")}renderSel()}
+grid.addEventListener("click",e=>{
+  const sw=e.target.closest(".sw button");
+  if(sw){const p=P.find(x=>x.id===sw.dataset.p);p.cur=sw.dataset.c;const c=document.getElementById(p.id),s=slugOf(p);
+    c.querySelector("img.main").src=`img/${s}-1.webp`;c.querySelector("img.main").alt=label(p);c.querySelector("img.alt").src=`img/${s}-2.webp`;
+    c.querySelectorAll(".sw button").forEach(b=>b.setAttribute("aria-pressed",b===sw));c.querySelector("[data-cn]").textContent=cap(p.cur);renderSel();return}
+  const a=e.target.closest(".add");if(a)add(P.find(x=>x.id===a.dataset.add));
+});
+document.getElementById("sel").addEventListener("click",e=>{const b=e.target.closest("[data-rm]");if(b){sel.delete(b.dataset.rm);renderSel()}});
+renderSel();
+
+/* copy helpers */
+function selectEl(el){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r)}
+function copy(el,btn){const ok=()=>{const o=btn.textContent;btn.textContent="Copied";setTimeout(()=>btn.textContent=o,1500)};try{navigator.clipboard.writeText(el.textContent).then(ok,()=>selectEl(el))}catch(e){selectEl(el)}}
+document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>copy(document.getElementById(b.dataset.copy),b)));
+document.getElementById("copyOut").addEventListener("click",e=>copy(document.getElementById("out"),e.currentTarget));
+document.getElementById("qcopy").addEventListener("click",e=>copy(document.getElementById("qout"),e.currentTarget));
+const val=id=>document.getElementById(id).value.trim();
+
+const FORM_URL="https://formsubmit.co/ajax/clyraceramics@gmail.com";
+async function sendMail(data){
+  try{const r=await fetch(FORM_URL,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(data)});
+    const j=await r.json().catch(()=>({}));return r.ok&&String(j.success)!=="false"}catch(e){return false}
+}
+function fallback(text,pre,mail,wa,box){
+  document.getElementById(pre).textContent=text;
+  document.getElementById(mail).href="mailto:clyraceramics@gmail.com?subject="+encodeURIComponent("Enquiry from clyraceramics.in")+"&body="+encodeURIComponent(text);
+  document.getElementById(wa).href="https://wa.me/917983895342?text="+encodeURIComponent(text);
+  document.getElementById(box).hidden=false;
+}
+document.getElementById("enq").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const ok=val("f-name")&&(/\S+@\S+\.\S+/.test(val("f-email"))||val("f-phone").replace(/\D/g,"").length>=8);
+  document.getElementById("err").hidden=!!ok;if(!ok)return;
+  const type=document.querySelector('input[name="type"]:checked').value;
+  const items=[...sel.values()].map(o=>"• "+o.label).join("\n")||"• (no pieces selected)";
+  const text=`Enquiry: ${type}\nName: ${val("f-name")}${val("f-phone")?"\nPhone: "+val("f-phone"):""}${val("f-email")?"\nEmail: "+val("f-email"):""}\nQuantity: ${val("f-qty")}\n\nPieces:\n${items}${val("f-msg")?"\n\n"+val("f-msg"):""}`;
+  const btn=document.getElementById("sendBtn");btn.disabled=true;btn.textContent="Sending…";
+  document.getElementById("sent").hidden=true;document.getElementById("done").hidden=true;
+  const sent=await sendMail({_subject:`New ${type} enquiry from ${val("f-name")}`,_template:"table",_captcha:"false",Name:val("f-name"),Phone:val("f-phone"),email:val("f-email"),Type:type,Quantity:val("f-qty"),Pieces:items,Message:val("f-msg")});
+  btn.disabled=false;btn.textContent="Send enquiry";
+  if(sent){document.getElementById("sent").hidden=false;e.target.querySelectorAll("input:not([type=radio]),textarea").forEach(i=>i.value="");sel.clear();renderSel()}
+  else fallback(text,"out","outMail","outWa","done");
+});
+
+/* quote modal */
+const modal=document.getElementById("modal");let lastFocus;
+function openM(){lastFocus=document.activeElement;modal.hidden=false;document.getElementById("q-name").focus()}
+function closeM(){modal.hidden=true;lastFocus&&lastFocus.focus()}
+document.querySelectorAll("[data-quote]").forEach(b=>b.addEventListener("click",()=>{if(b.dataset.kind)document.getElementById(b.dataset.kind).checked=true;openM()}));
+document.getElementById("mClose").addEventListener("click",closeM);
+modal.addEventListener("click",e=>{if(e.target===modal)closeM()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!modal.hidden)closeM()});
+document.getElementById("qform").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const ok=val("q-name")&&(/\S+@\S+\.\S+/.test(val("q-email"))||val("q-phone").replace(/\D/g,"").length>=8);
+  document.getElementById("qerr").hidden=!!ok;if(!ok)return;
+  const items=[...sel.values()].map(o=>"• "+o.label).join("\n");
+  const text=`Quote request\nName: ${val("q-name")}${val("q-phone")?"\nPhone: "+val("q-phone"):""}${val("q-email")?"\nEmail: "+val("q-email"):""}${items?"\n\nPieces:\n"+items:""}${val("q-msg")?"\n\n"+val("q-msg"):""}`;
+  const btn=document.getElementById("qBtn");btn.disabled=true;btn.textContent="Sending…";
+  document.getElementById("qsent").hidden=true;document.getElementById("qdone").hidden=true;
+  const sent=await sendMail({_subject:`Quote request from ${val("q-name")}`,_template:"table",_captcha:"false",Name:val("q-name"),Phone:val("q-phone"),email:val("q-email"),Pieces:items,Message:val("q-msg")});
+  btn.disabled=false;btn.textContent="Submit";
+  if(sent){document.getElementById("qsent").hidden=false;e.target.querySelectorAll("input,textarea").forEach(i=>i.value="")}
+  else fallback(text,"qout","qMail","qWa","qdone");
+});
+
+/* WhatsApp chooser */
+const waBtn=document.getElementById("waBtn"),waMenu=document.getElementById("waMenu");
+waBtn.addEventListener("click",e=>{e.stopPropagation();waMenu.hidden=!waMenu.hidden;waBtn.setAttribute("aria-expanded",!waMenu.hidden)});
+document.addEventListener("click",e=>{if(!waMenu.hidden&&!e.target.closest("#waMenu")){waMenu.hidden=true;waBtn.setAttribute("aria-expanded","false")}});
+</script>
+
+</body>
+</html>
