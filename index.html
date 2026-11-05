@@ -672,7 +672,7 @@ function apply(){let n=0;grid.querySelectorAll(".card").forEach(c=>{const ok=fil
 function filter(f){filt=f;tabs.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===f));apply()}
 tabs.addEventListener("click",e=>{const b=e.target.closest(".chip");if(b)filter(b.dataset.f)});
 moreBtn.addEventListener("click",()=>{all=true;apply()});
-document.querySelectorAll("[data-cat]").forEach(b=>b.addEventListener("click",e=>{e.preventDefault();filter(b.dataset.cat);document.getElementById("products").scrollIntoView({behavior:"smooth"})}));
+document.querySelectorAll(".col[data-cat],#footcats [data-cat]").forEach(b=>b.addEventListener("click",e=>{e.preventDefault();filter(b.dataset.cat);document.getElementById("products").scrollIntoView({behavior:"smooth"})}));
 apply();
 
 /* enquiry */
