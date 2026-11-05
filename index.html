@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Clyra Ceramics</title>
-<meta name="description" content="Clyra Ceramics: hand-painted ceramic jars, oil bottles, salad and handi sets, dinnerware and gift sets. Bulk, wholesale and gifting orders. Worldwide delivery.">
+<meta name="description" content="Clyra Ceramics: hand-painted ceramic jars, oil bottles, salad and handi sets, dinner sets, Horeca tableware and gift sets. Bulk, wholesale and gifting orders. Worldwide delivery.">
 <meta property="og:title" content="Clyra Ceramics">
-<meta property="og:description" content="Hand-painted ceramic jars, bottles, serveware and gift sets. Worldwide delivery.">
+<meta property="og:description" content="Hand-painted ceramic jars, dinnerware, serveware and gift sets. Worldwide delivery.">
 <meta property="og:image" content="https://clyraceramics.in/img/showroom-01.webp">
 <meta property="og:url" content="https://clyraceramics.in/">
 <link rel="canonical" href="https://clyraceramics.in/">
@@ -159,6 +159,34 @@ section{padding-block:88px}
 .add{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:13px 10px;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;transition:background .2s,color .2s}
 .add:hover{background:#fff;color:var(--ink)}
 .add.on{background:#fff;color:var(--ink)}
+.acts{display:grid;gap:8px}
+.wab{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:12px 10px;background:#1fa855;color:#fff;text-decoration:none;border:1px solid #1fa855;transition:background .2s}
+.wab:hover{background:#178a45}
+.wab svg{width:16px;height:16px;flex:none}
+.card .im{cursor:zoom-in}
+.card .strip{position:absolute;inset:0;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.card .strip::-webkit-scrollbar{display:none}
+.card .strip img{position:static;flex:0 0 100%;width:100%;height:100%;object-fit:cover;scroll-snap-align:start;opacity:1}
+.ga{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:32px;height:32px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:var(--ink);font-size:20px;line-height:1;cursor:pointer;display:grid;place-items:center;opacity:0;transition:opacity .2s;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.ga.l{left:8px}.ga.r{right:8px}
+.card:hover .ga,.ga:focus-visible{opacity:1}
+@media (hover:none){.ga{opacity:1}}
+.cnt{position:absolute;right:8px;bottom:8px;z-index:3;background:rgba(31,34,37,.72);color:#fff;font-size:11px;font-weight:600;padding:4px 8px;border-radius:999px;font-variant-numeric:tabular-nums}
+.qv .box{grid-template-columns:1.15fr .85fr;width:min(1000px,100%)}
+.qv .gal2{background:var(--stone);display:grid;grid-template-rows:1fr auto;min-width:0}
+.qv .big{position:relative;aspect-ratio:1;max-height:72vh;width:100%}
+.qv .big img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:var(--stone)}
+.qv .big .ga{opacity:1}
+.qv .big .cnt{bottom:12px;right:12px}
+.qv .thumbs{display:flex;gap:6px;overflow-x:auto;padding:10px;scrollbar-width:thin}
+.qv .thumbs button{flex:0 0 58px;height:58px;padding:0;border:2px solid transparent;background:none;cursor:pointer}
+.qv .thumbs button[aria-current="true"]{border-color:var(--ink)}
+.qv .thumbs img{width:100%;height:100%;object-fit:cover}
+.qv .in h2{text-align:left;font-family:var(--serif);font-style:italic;font-size:32px;font-weight:400}
+.qv .in p{color:var(--muted);font-size:14.5px}
+.qv ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.qv ul li{font-size:12px;font-weight:600;border:1px solid var(--line);padding:6px 10px;background:var(--stone)}
+@media (max-width:760px){.qv .box{grid-template-columns:1fr}.qv .big{max-height:55vh}}
 .more{display:flex;justify-content:center;margin-top:40px}
 
 /* Showroom gallery */
@@ -387,7 +415,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid #3a3d40;padding-top:20px;dis
     </div>
     <div class="stats"><div class="wrap">
       <div><b>300+</b><span>Products</span></div>
-      <div><b>7</b><span>Collections</span></div>
+      <div><b>12</b><span>Collections</span></div>
       <div><b>B2B</b><span>Bulk &amp; gifting orders</span></div>
       <div><b>Worldwide</b><span>Delivery</span></div>
     </div></div>
@@ -501,6 +529,19 @@ footer .legal{grid-column:1/-1;border-top:1px solid #3a3d40;padding-top:20px;dis
     </div>
   </div>
 </div>
+<div class="modal qv" id="qv" hidden role="dialog" aria-modal="true" aria-labelledby="qvTitle">
+  <div class="box">
+    <button class="x" type="button" id="qvClose" aria-label="Close">×</button>
+    <div class="gal2"><div class="big"><img id="qvImg" src="" alt="" referrerpolicy="no-referrer"><button class="ga l" type="button" id="qvPrev" aria-label="Previous photo">‹</button><button class="ga r" type="button" id="qvNext" aria-label="Next photo">›</button><span class="cnt" id="qvCnt"></span></div><div class="thumbs" id="qvThumbs"></div></div>
+    <div class="in">
+      <span class="ey">Clyra Ceramics</span>
+      <h2 id="qvTitle"></h2>
+      <p id="qvDesc"></p>
+      <ul id="qvFeat"></ul>
+      <div class="acts"><button class="add" type="button" id="qvAdd">Add to enquiry →</button><a class="wab" id="qvWa" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>Enquire on WhatsApp</a></div>
+    </div>
+  </div>
+</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
@@ -513,13 +554,21 @@ const CATS=[
   {id:"salad",name:"Salad Sets",cover:"strawberry-design-3-pcs-2"},
   {id:"handi",name:"Handi & Bowl Sets",cover:"heritage-design-3-pcs-handi-set-green-1"},
   {id:"serve",name:"Water Jugs",cover:"water-jug-400-ml-1"},
+  {id:"dining",name:"Dinner Sets & Dinnerware",cover:"https://markindustries.org/media/products/342339330_dinner_set_printed.jpeg"},
+  {id:"gold",name:"Gold Edition",cover:"https://markindustries.org/media/products/765518927_WhatsApp%20Image%202026-01-23%20at%203.04.10%20PM.jpeg"},
+  {id:"horeca",name:"Horeca · Hotels & Cafés",cover:"https://markindustries.org/media/products/260765752_horeca_set(6).jpg"},
+  {id:"decor",name:"Vases & Home Décor",cover:"https://markindustries.org/media/products/130226576_decor_product(1).jpeg"},
+  {id:"gift",name:"Gift Sets",cover:"https://markindustries.org/media/products/495994185_gifting_product(1).jpeg"},
   {id:"art",name:"Painted Jar Sets of 4",cover:"painted-jar-set-of-4-floral-1",label:"sets"}
 ];
 const P=[
   {n:"Mughal Art Jar",cat:"art",tag:"Bestseller",vars:["red","blue","green","black"],base:"mughal-art-jar-"},
+  {"n": "Dinner Sets", "cat": "dining", "imgs": ["https://markindustries.org/media/products/342339330_dinner_set_printed.jpeg", "https://markindustries.org/media/products/637858953_dinner_set(3).jpg", "https://markindustries.org/media/products/307766532_dinner_set(4).jpg", "https://markindustries.org/media/products/297824021_dinner_set(5).jpg", "https://markindustries.org/media/products/381177228_dinner_set(6).jpg", "https://markindustries.org/media/products/701920583_dinner_set(1).jpeg", "https://markindustries.org/media/products/537720940_dinner_set(2).jpg", "https://markindustries.org/media/products/830715823_dinner_set_multi(1).jpg", "https://markindustries.org/media/products/365892432_dinner_set(8).jpg", "https://markindustries.org/media/products/758623380_dinner_set(7).jpg"], "d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain", "tag": "New"},
   {n:"Moon Pattern Jar Set of 4 with Tray",cat:"moon",tag:"New",s:"moon-pattern-set-of-4",m:"Wooden lid & spoon"},
   {n:"Hand-painted Jar Set of 4",cat:"art",tag:"New",vars:["floral","folk"],base:"painted-jar-set-of-4-"},
+  {"n": "Royal Bloom Dinner Set · 21 pcs", "cat": "dining", "imgs": ["https://markindustries.org/media/products/775898699_Royal%20bloom%20dinner%20set%2021%20pcs.png"], "d": "A bold black and cream dinner set with rich geometric elegance, created to deliver a luxurious dining experience with a strong modern statement.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "1 photo · stoneware & porcelain"},
   {n:"Moon Pattern Tea, Sugar & Salt Jars",cat:"moon",s:"moon-tea-sugar-salt-combo",m:"Wooden lid & spoon"},
+  {"n": "Royal Gold Porcelain Dinner Set", "cat": "gold", "imgs": ["https://markindustries.org/media/products/765518927_WhatsApp%20Image%202026-01-23%20at%203.04.10%20PM.jpeg", "https://markindustries.org/media/products/394625584_WhatsApp%20Image%202026-01-23%20at%203.12.52%20PM.jpeg", "https://markindustries.org/media/products/584585317_WhatsApp%20Image%202026-01-23%20at%203.09.44%20PM.jpeg"], "d": "Elevate your dining experience with this premium porcelain dinner set, beautifully finished with elegant gold detailing. Crafted for luxury, durability, and timeless appeal, it is perfect for fine dining and special occasions.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "3 photos · stoneware & porcelain", "tag": "Gold Edition"},
   {n:"Jaipuri Painting Jar",cat:"art",vars:["aqua","yellow"],base:"jaipuri-painting-jar-"},
   {n:"Oil & Vinegar Bottle",cat:"bottles",tag:"6 colours",vars:["sunflower","blue","black","brown","pink","yellow"],base:"oil-vinegar-bottle-"},
   {n:"Heritage Design 3 Pcs. Handi Set",cat:"handi",vars:["blue","green","grey"],base:"heritage-design-3-pcs-handi-set-"},
@@ -553,12 +602,36 @@ const P=[
   {n:"Coffee Jar · 500 ml",cat:"jars",s:"coffee-jar-500-ml"},
   {n:"Sugar Jar · 400 ml",cat:"jars",s:"sugar-jar-400-ml"},
   {n:"Sugar Jar · 500 ml",cat:"jars",s:"sugar-jar-500-ml"},
-  {n:"Water Jug · 400 ml",cat:"serve",s:"water-jug-400-ml"}
+  {n:"Water Jug · 400 ml",cat:"serve",s:"water-jug-400-ml"},
+  {"n": "Midnight Leaf Dinner Set · 21 pcs", "cat": "dining", "imgs": ["https://markindustries.org/media/products/297341667_Midnight%20Leaf%2021%20pc%20dinner%20set.png"], "d": "An elegant dinner set with leaf accents, designed to bring a bold yet refined touch to modern dining. Perfect for those who love minimal luxury with a statement look.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "1 photo · stoneware & porcelain"},
+  {"n": "Daisy Slate Dinner Set · 21 pcs", "cat": "dining", "imgs": ["https://markindustries.org/media/products/852829088_Daisy%20Slate%20dinner%20set%2021%20pcs.jpeg"], "d": "An elegant 21-piece dinner set in the Daisy Slate design.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "1 photo · stoneware & porcelain"},
+  {"n": "Plates", "cat": "dining", "imgs": ["https://markindustries.org/media/products/474948765_top_dinings_plates3.jpg", "https://markindustries.org/media/products/155008314_dining_plates_4.jpg", "https://markindustries.org/media/products/151268821_dining_plates_5.jpg", "https://markindustries.org/media/products/321799123_dining_plates(1).jpg", "https://markindustries.org/media/products/666000900_dining_plates(1).webp", "https://markindustries.org/media/products/394533109_dining_plates(2).jpg", "https://markindustries.org/media/products/669842293_dining_plates(2).webp", "https://markindustries.org/media/products/165259969_dining_plates(3).jpg", "https://markindustries.org/media/products/274538786_dining_plates(4).jpg", "https://markindustries.org/media/products/595849993_dining_plates(5).webp"], "d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain"},
+  {"n": "Bowls", "cat": "dining", "imgs": ["https://markindustries.org/media/products/660646949_dining_bowls(1).jpg", "https://markindustries.org/media/products/381636868_dining_bowls(1).webp", "https://markindustries.org/media/products/512945792_dining_bowls(2).jpg", "https://markindustries.org/media/products/818854367_dining_bowls(3).jpg", "https://markindustries.org/media/products/210294772_dining_bowls(4).jpg", "https://markindustries.org/media/products/850722064_dining_bowls(5).jpg", "https://markindustries.org/media/products/784127430_dining_bowls(6).jpg", "https://markindustries.org/media/products/759253824_dining_bowls(7).jpg", "https://markindustries.org/media/products/261739225_dining_bowls(8).jpg", "https://markindustries.org/media/products/768237176_dining_bowls(9).jpg"], "d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain"},
+  {"n": "Cups & Mugs", "cat": "dining", "imgs": ["https://markindustries.org/media/products/148483179_cups_mugs_dining(1).jpg", "https://markindustries.org/media/products/862734249_cups_mugs_dining(2).jpg", "https://markindustries.org/media/products/183854166_cups_mugs_dining(3).jpg", "https://markindustries.org/media/products/583729662_cups_mugs_dining(4).jpg", "https://markindustries.org/media/products/690392084_cups_mugs_dining(5).jpg", "https://markindustries.org/media/products/181169578_cups_mugs_dining(6).jpg", "https://markindustries.org/media/products/816629005_cups_mugs_dining(7).jpg", "https://markindustries.org/media/products/694272615_cups_mugs_dining(8).jpg", "https://markindustries.org/media/products/480213978_cups_mugs_dining(2).jpeg", "https://markindustries.org/media/products/598754986_cups_mugs_dining(1).jpeg"], "d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain"},
+  {"n": "Gold Line Mugs", "cat": "gold", "imgs": ["https://markindustries.org/media/products/380560053_mugs.jpeg", "https://markindustries.org/media/products/929030242_WhatsApp%20Image%202025-12-19%20at%2012.16.31%20PM.jpeg"], "d": "Gold line mugs for milk and coffee.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "2 photos · stoneware & porcelain"},
+  {"n": "Christmas Gold Line Mug", "cat": "gold", "imgs": ["https://markindustries.org/media/products/727670638_IMG-20251215-WA0018.jpg"], "d": "The ShineBright Christmas mug from the Gold Edition.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "1 photo · stoneware & porcelain"},
+  {"n": "Gold Line Coffee Cup & Saucer", "cat": "gold", "imgs": ["https://markindustries.org/media/products/148392116_IMG-20251215-WA0020.jpg"], "d": "Premium ceramic coffee cup and saucer set with elegant gold line detailing. Perfect for serving coffee in style at home, cafés, hotels and fine dining spaces.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "1 photo · stoneware & porcelain"},
+  {"n": "Horeca Sets", "cat": "horeca", "imgs": ["https://markindustries.org/media/products/260765752_horeca_set(6).jpg", "https://markindustries.org/media/products/510932270_horeca_set(7).jpg", "https://markindustries.org/media/products/949702755_horeca_set(8).jpg", "https://markindustries.org/media/products/334112607_horeca_set(9).jpg", "https://markindustries.org/media/products/533724890_horeca_set(1).jpg", "https://markindustries.org/media/products/941347407_horeca_set(2).jpg", "https://markindustries.org/media/products/776409396_horeca_set(3).jpg", "https://markindustries.org/media/products/593768942_horeca_set(4).jpg", "https://markindustries.org/media/products/771311805_horeca_set(5).jpg", "https://markindustries.org/media/products/803597187_horeca_set(6).jpg"], "d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain", "tag": "Horeca"},
+  {"n": "Platters", "cat": "horeca", "imgs": ["https://markindustries.org/media/products/598747088_horeca_platters_new(4).jpg", "https://markindustries.org/media/products/855259042_horeca_platters(1).jpg", "https://markindustries.org/media/products/839190320_horeca_platters(1).webp", "https://markindustries.org/media/products/763162822_horeca_platters(2).jpg", "https://markindustries.org/media/products/602899221_horeca_platters(2).webp", "https://markindustries.org/media/products/679981374_horeca_platters(3).jpg", "https://markindustries.org/media/products/818601250_horeca_platters(3).webp", "https://markindustries.org/media/products/718767026_horeca_platters(4).jpg", "https://markindustries.org/media/products/505368614_horeca_platters(5).jpg", "https://markindustries.org/media/products/567068905_horeca_platters(5).webp"], "d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain"},
+  {"n": "Soup Bowls", "cat": "horeca", "imgs": ["https://markindustries.org/media/products/603201177_soup_bowls(1).jpg", "https://markindustries.org/media/products/827508718_soup_bowls(1).webp", "https://markindustries.org/media/products/129468582_soup_bowls(2).jpg", "https://markindustries.org/media/products/967317082_soup_bowls(2).webp", "https://markindustries.org/media/products/583654931_soup_bowls(3).webp", "https://markindustries.org/media/products/658457437_soup_bowls(4).webp"], "d": "Premium stoneware and porcelain soup bowls for professional hospitality use. Available in different sizes, colours and variants for soups, broths and signature dishes.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "6 photos · stoneware & porcelain"},
+  {"n": "Dip Bowls", "cat": "horeca", "imgs": ["https://markindustries.org/media/products/777923674_dip_bowl4.jpg", "https://markindustries.org/media/products/526110122_dip_bowl3.jpg", "https://markindustries.org/media/products/761208630_dip_bowl2.jpg", "https://markindustries.org/media/products/693261246_dip_bowl.jpg"], "d": "Premium stoneware and porcelain dip bowls for professional hospitality use, in different sizes for sauces, condiments and elegant food presentation.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "4 photos · stoneware & porcelain"},
+  {"n": "Coffee Mugs", "cat": "horeca", "imgs": ["https://markindustries.org/media/products/219897034_coffeee_mug_horeca(1).jpg", "https://markindustries.org/media/products/863475304_coffeee_mug_horeca(2).jpg", "https://markindustries.org/media/products/415646210_coffeee_mug_horeca(3).jpg", "https://markindustries.org/media/products/698034867_coffeee_mug_horeca(4).jpg", "https://markindustries.org/media/products/923160195_coffeee_mug_horeca(1).webp", "https://markindustries.org/media/products/683166470_coffeee_mug_horeca(6).jpg", "https://markindustries.org/media/products/231702738_coffeee_mug_horeca(7).jpg", "https://markindustries.org/media/products/423072444_coffeee_mug_horeca(9).jpg", "https://markindustries.org/media/products/537835288_coffeee_mug_horeca(8).jpg", "https://markindustries.org/media/products/588952649_coffeee_mug_horeca(5).jpg"], "d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain"},
+  {"n": "Cups & Saucers", "cat": "horeca", "imgs": ["https://markindustries.org/media/products/896505358_cup_and_soucer_horeca%20(1).jpg", "https://markindustries.org/media/products/911085317_cup_and_soucer_horeca%20(1).webp", "https://markindustries.org/media/products/113660438_cup_and_soucer_horeca%20(7).jpg", "https://markindustries.org/media/products/968224468_cup_and_soucer_horeca%20(2).jpg", "https://markindustries.org/media/products/535187855_cup_and_soucer_horeca%20(2).webp", "https://markindustries.org/media/products/600129977_cup_and_soucer_horeca%20(3).jpg", "https://markindustries.org/media/products/722981886_cup_and_soucer_horeca%20(3).webp", "https://markindustries.org/media/products/633560152_cup_and_soucer_horeca%20(4).jpg", "https://markindustries.org/media/products/267755710_cup_and_soucer_horeca%20(5).jpg", "https://markindustries.org/media/products/661793629_cup_and_soucer_horeca%20(6).jpg"], "d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain"},
+  {"n": "Vases", "cat": "decor", "imgs": ["https://markindustries.org/media/products/130226576_decor_product(1).jpeg", "https://markindustries.org/media/products/613197993_decor_product(1).jpg", "https://markindustries.org/media/products/696740891_decor_product(2).jpg", "https://markindustries.org/media/products/975830365_decor_product(3).jpeg", "https://markindustries.org/media/products/716512313_decor_product(3).jpg", "https://markindustries.org/media/products/930481519_decor_product(4).jpeg", "https://markindustries.org/media/products/708534072_decor_product(4).jpg", "https://markindustries.org/media/products/272313731_decor_product(8).jpeg", "https://markindustries.org/media/products/757585595_decor_product(5).jpg", "https://markindustries.org/media/products/672087871_decor_product(6).jpg"], "d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain"},
+  {"n": "Wall Plates", "cat": "decor", "imgs": ["https://markindustries.org/media/products/628206467_decor_plates2.jpeg", "https://markindustries.org/media/products/681014322_decor_plate.jpg", "https://markindustries.org/media/products/405338219_decor_plates4.jpg"], "d": "Decorative stoneware and porcelain wall plates that add artistry to any space, in a variety of styles, patterns and sizes.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "3 photos · stoneware & porcelain"},
+  {"n": "Bath Sets", "cat": "decor", "imgs": ["https://markindustries.org/media/products/485132441_bath_sets.jpg"], "d": "Premium stoneware and porcelain bath sets with a smooth refined finish. Available in different sizes, combinations and colours to add style to any bathroom.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "1 photo · stoneware & porcelain"},
+  {"n": "Gift Sets", "cat": "gift", "imgs": ["https://markindustries.org/media/products/495994185_gifting_product(1).jpeg", "https://markindustries.org/media/products/229207732_gifting_product(2).jpeg", "https://markindustries.org/media/products/876354019_gifting_product(3).jpeg", "https://markindustries.org/media/products/134797739_gifting_product(4).jpeg", "https://markindustries.org/media/products/113463209_gifting_product(5).jpeg", "https://markindustries.org/media/products/440208504_gifting_product(6).jpeg", "https://markindustries.org/media/products/729069298_gifting_product(7).jpeg", "https://markindustries.org/media/products/409306505_gifting_product(8).jpeg", "https://markindustries.org/media/products/532968311_gifting_product(9).jpeg", "https://markindustries.org/media/products/684733858_gifting_product(10).jpeg"], "d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "10 photos · stoneware & porcelain", "tag": "Gifting"},
+  {"n": "Ceramic Storage Jars", "cat": "jars", "imgs": ["https://markindustries.org/media/products/699680915_jars(2).jpg", "https://markindustries.org/media/products/769753542_jars(3).jpg", "https://markindustries.org/media/products/427028037_jars(4).jpg", "https://markindustries.org/media/products/505089890_jars(5).jpg", "https://markindustries.org/media/products/113605933_jars(6).jpg", "https://markindustries.org/media/products/190095027_jars(1).jpg"], "d": "Stoneware and porcelain storage jars with a smooth refined finish and secure design. Available in different sizes, colours and styles for storage and décor.", "f": ["No Bone China", "100% Premium Stoneware & Porcelain", "Handcrafted", "Microwave Safe", "Oven Safe"], "m": "6 photos · stoneware & porcelain"}
 ];
 P.forEach((p,i)=>{p.id="p"+i;p.cur=p.vars?p.vars[0]:null});
 const slugOf=p=>p.vars?p.base+p.cur:p.s;
 const cap=s=>s[0].toUpperCase()+s.slice(1);
 const label=p=>p.n+(p.cur?` · ${cap(p.cur)}`:"");
+const imgSrc=x=>/^https?:/.test(x)?x:`img/${x}.webp`;
+const photos=p=>p.imgs?p.imgs:[`img/${slugOf(p)}-1.webp`,`img/${slugOf(p)}-2.webp`];
+const WA_NO="917983895342";
+const waLink=p=>`https://wa.me/${WA_NO}?text=`+encodeURIComponent(`Hi Clyra Ceramics,\nInquiry for ${label(p)}`);
+const WA_ICON='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>';
 
 /* menu */
 const menu=document.getElementById("menu"),nav=document.getElementById("nav");
@@ -574,21 +647,26 @@ dots.addEventListener("click",e=>{const b=e.target.closest("button");if(b){go([.
 
 /* collections carousel */
 const track=document.getElementById("track");
-track.innerHTML=CATS.map(c=>`<button class="col" type="button" data-cat="${c.id}"><div class="im"><img src="img/${c.cover}.webp" alt="" loading="lazy"></div><span>${c.name}</span></button>`).join("");
+track.innerHTML=CATS.map(c=>`<button class="col" type="button" data-cat="${c.id}"><div class="im"><img src="${imgSrc(c.cover)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div><span>${c.name}</span></button>`).join("");
 document.querySelectorAll("[data-tr]").forEach(b=>b.addEventListener("click",()=>track.scrollBy({left:track.clientWidth/2*b.dataset.tr,behavior:"smooth"})));
 const uniq=[...new Map(CATS.filter(c=>!c.label).map(c=>[c.id,c])).values()];
 document.getElementById("footcats").innerHTML=uniq.map(c=>`<li><a href="#products" data-cat="${c.id}">${c.name}</a></li>`).join("");
 
 /* products */
 const tabs=document.getElementById("tabs"),grid=document.getElementById("grid"),moreBtn=document.getElementById("moreBtn");
-const short={moon:"Moon Pattern",art:"Art Jars",jars:"Storage Jars",bottles:"Oil & Vinegar",salad:"Salad Sets",handi:"Handi & Bowls",serve:"Jugs"};
+const short={dining:"Dinnerware",gold:"Gold Edition",horeca:"Horeca",moon:"Moon Pattern",art:"Art Jars",jars:"Storage Jars",bottles:"Oil & Vinegar",salad:"Salad Sets",handi:"Handi & Bowls",serve:"Jugs",decor:"Home Décor",gift:"Gifting"};
 tabs.innerHTML=`<button class="chip" type="button" data-f="all" aria-pressed="true">All products</button>`+Object.entries(short).map(([k,v])=>`<button class="chip" type="button" data-f="${k}" aria-pressed="false">${v}</button>`).join("");
-grid.innerHTML=P.map(p=>{const s=slugOf(p);return `<article class="card" data-cat="${p.cat}" id="${p.id}">
-  <div class="im">${p.tag?`<span class="badge">${p.tag}</span>`:""}<img class="main" src="img/${s}-1.webp" alt="${label(p)}" loading="lazy"><img class="alt" src="img/${s}-2.webp" alt="" loading="lazy"></div>
+function imBlock(p){
+  if(p.imgs){const n=p.imgs.length;return `<div class="im" data-qv="${p.id}">${p.tag?`<span class="badge">${p.tag}</span>`:""}<div class="strip">${p.imgs.map((u,i)=>`<img src="${u}" alt="${i?"":p.n}" loading="lazy" referrerpolicy="no-referrer">`).join("")}</div>${n>1?`<button class="ga l" type="button" aria-label="Previous photo" data-ga="-1">‹</button><button class="ga r" type="button" aria-label="Next photo" data-ga="1">›</button><span class="cnt">1 / ${n}</span>`:""}</div>`}
+  const s=slugOf(p);return `<div class="im" data-qv="${p.id}">${p.tag?`<span class="badge">${p.tag}</span>`:""}<img class="main" src="img/${s}-1.webp" alt="${label(p)}" loading="lazy"><img class="alt" src="img/${s}-2.webp" alt="" loading="lazy"></div>`;
+}
+grid.innerHTML=P.map(p=>`<article class="card" data-cat="${p.cat}" id="${p.id}">
+  ${imBlock(p)}
   <h3>${p.n}</h3>
   ${p.vars?`<div class="sw" role="group" aria-label="Colour">${p.vars.map(c=>`<button type="button" style="background:${C[c]}" aria-label="${cap(c)}" title="${cap(c)}" aria-pressed="${c===p.cur}" data-p="${p.id}" data-c="${c}"></button>`).join("")}</div><span class="meta" data-cn>${cap(p.cur)}</span>`:`<span class="meta">${p.m||"Hand-painted"}</span>`}
-  <button class="add" type="button" data-add="${p.id}">Add to enquiry →</button>
-</article>`}).join("");
+  <div class="acts"><button class="add" type="button" data-add="${p.id}">Add to enquiry →</button><a class="wab" href="${waLink(p)}" target="_blank" rel="noopener" data-wa="${p.id}">${WA_ICON}WhatsApp</a></div>
+</article>`).join("");
+grid.querySelectorAll(".strip").forEach(st=>st.addEventListener("scroll",()=>{const c=st.parentElement.querySelector(".cnt");if(c){const i=Math.round(st.scrollLeft/st.clientWidth);c.textContent=`${i+1} / ${st.children.length}`}},{passive:true}));
 let filt="all",all=false;
 function apply(){let n=0;grid.querySelectorAll(".card").forEach(c=>{const ok=filt==="all"||c.dataset.cat===filt;const show=ok&&(all||filt!=="all"||n<8);if(ok)n++;c.hidden=!show});moreBtn.parentElement.hidden=all||filt!=="all"}
 function filter(f){filt=f;tabs.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.f===f));apply()}
@@ -601,18 +679,42 @@ apply();
 const sel=new Map(),toast=document.getElementById("toast");let tt;
 function say(t){toast.textContent=t;toast.classList.add("show");clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove("show"),2200)}
 function renderSel(){
-  document.getElementById("sel").innerHTML=sel.size?`<ul>${[...sel].map(([k,o])=>`<li><img src="img/${o.s}-1.webp" alt=""><span>${o.label}</span><button type="button" data-rm="${k}">Remove</button></li>`).join("")}</ul>`:`<p class="none">No pieces added yet. Use “Add to enquiry” on any product.</p>`;
+  document.getElementById("sel").innerHTML=sel.size?`<ul>${[...sel].map(([k,o])=>`<li><img src="${o.t}" alt="" referrerpolicy="no-referrer"><span>${o.label}</span><button type="button" data-rm="${k}">Remove</button></li>`).join("")}</ul>`:`<p class="none">No pieces added yet. Use “Add to enquiry” on any product.</p>`;
   grid.querySelectorAll(".add").forEach(b=>{const p=P.find(x=>x.id===b.dataset.add);const on=sel.has(p.id+":"+p.cur);b.classList.toggle("on",on);b.textContent=on?"Added ✓":"Add to enquiry →"});
+  const qa=document.getElementById("qvAdd");if(qa&&qvP){const on=sel.has(qvP.id+":"+qvP.cur);qa.textContent=on?"Added ✓":"Add to enquiry →"}
 }
-function add(p){const k=p.id+":"+p.cur;if(sel.has(k)){sel.delete(k);say("Removed from enquiry")}else{sel.set(k,{label:label(p),s:slugOf(p)});say(label(p)+" added to enquiry")}renderSel()}
+function add(p){const k=p.id+":"+p.cur;if(sel.has(k)){sel.delete(k);say("Removed from enquiry")}else{sel.set(k,{label:label(p),t:photos(p)[0]});say(label(p)+" added to enquiry")}renderSel()}
 grid.addEventListener("click",e=>{
   const sw=e.target.closest(".sw button");
   if(sw){const p=P.find(x=>x.id===sw.dataset.p);p.cur=sw.dataset.c;const c=document.getElementById(p.id),s=slugOf(p);
     c.querySelector("img.main").src=`img/${s}-1.webp`;c.querySelector("img.main").alt=label(p);c.querySelector("img.alt").src=`img/${s}-2.webp`;
-    c.querySelectorAll(".sw button").forEach(b=>b.setAttribute("aria-pressed",b===sw));c.querySelector("[data-cn]").textContent=cap(p.cur);renderSel();return}
+    c.querySelectorAll(".sw button").forEach(b=>b.setAttribute("aria-pressed",b===sw));c.querySelector("[data-cn]").textContent=cap(p.cur);c.querySelector("[data-wa]").href=waLink(p);renderSel();return}
+  const ga=e.target.closest("[data-ga]");
+  if(ga){const st=ga.parentElement.querySelector(".strip");st.scrollBy({left:st.clientWidth*ga.dataset.ga,behavior:"smooth"});return}
+  const qv=e.target.closest("[data-qv]");if(qv){openQV(P.find(x=>x.id===qv.dataset.qv));return}
   const a=e.target.closest(".add");if(a)add(P.find(x=>x.id===a.dataset.add));
 });
 document.getElementById("sel").addEventListener("click",e=>{const b=e.target.closest("[data-rm]");if(b){sel.delete(b.dataset.rm);renderSel()}});
+
+/* quick view */
+var qvEl=document.getElementById("qv"),qvP=null,qvLast;
+function qvShow(i){const ph=photos(qvP);i=(i+ph.length)%ph.length;qvEl.dataset.i=i;document.getElementById("qvImg").src=ph[i];document.getElementById("qvImg").alt=label(qvP);
+  document.querySelectorAll("#qvThumbs button").forEach((b,k)=>b.setAttribute("aria-current",k===i));document.getElementById("qvCnt").textContent=ph.length>1?`${i+1} / ${ph.length}`:""}
+function openQV(p){qvP=p;qvLast=document.activeElement;const ph=photos(p);
+  document.getElementById("qvTitle").textContent=label(p);
+  document.getElementById("qvDesc").textContent=p.d||"Hand-painted ceramic from Clyra. Each piece is painted by hand, so brushwork and colour vary slightly.";
+  document.getElementById("qvFeat").innerHTML=(p.f||[p.m||"Hand-painted","Wooden lid"].filter(Boolean)).map(f=>`<li>${f}</li>`).join("");
+  document.getElementById("qvThumbs").innerHTML=ph.length>1?ph.map((u,k)=>`<button type="button" data-k="${k}" aria-label="Photo ${k+1}"><img src="${u}" alt="" loading="lazy" referrerpolicy="no-referrer"></button>`).join(""):"";
+  document.getElementById("qvPrev").hidden=document.getElementById("qvNext").hidden=ph.length<2;
+  document.getElementById("qvWa").href=waLink(p);document.getElementById("qvAdd").dataset.add=p.id;
+  qvShow(0);qvEl.hidden=false;document.getElementById("qvClose").focus()}
+function closeQV(){qvEl.hidden=true;qvLast&&qvLast.focus()}
+document.getElementById("qvClose").addEventListener("click",closeQV);
+qvEl.addEventListener("click",e=>{if(e.target===qvEl)closeQV();const t=e.target.closest("#qvThumbs button");if(t)qvShow(+t.dataset.k)});
+document.getElementById("qvPrev").addEventListener("click",()=>qvShow(+qvEl.dataset.i-1));
+document.getElementById("qvNext").addEventListener("click",()=>qvShow(+qvEl.dataset.i+1));
+document.getElementById("qvAdd").addEventListener("click",()=>{add(qvP)});
+document.addEventListener("keydown",e=>{if(qvEl.hidden)return;if(e.key==="Escape")closeQV();if(e.key==="ArrowRight")qvShow(+qvEl.dataset.i+1);if(e.key==="ArrowLeft")qvShow(+qvEl.dataset.i-1)});
 renderSel();
 
 /* copy helpers */
