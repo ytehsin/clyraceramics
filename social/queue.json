@@ -1,0 +1,4040 @@
+{
+"base": "https://clyraceramics.in/social/",
+"posts": [
+{
+"key": "c-mughal-art-jar-blue",
+"src": "clyra",
+"n": "Mughal Art Jar · Blue",
+"sub": "Hand-painted · Blue",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-oil-vinegar-bottle-sunflower",
+"src": "clyra",
+"n": "Oil & Vinegar Bottle · Sunflower",
+"sub": "Hand-painted · Sunflower",
+"cat": "bottles",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-heritage-design-4-pcs-bowl-set-blue",
+"src": "clyra",
+"n": "Heritage Design 4 Pcs. Bowl Set · Blue",
+"sub": "Hand-painted · Blue",
+"cat": "handi",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-tea-sugar-jar-500-ml",
+"src": "clyra",
+"n": "Tea & Sugar Jar · 500 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-moon-sugar-jar",
+"src": "clyra",
+"n": "Moon Pattern Sugar Jar",
+"sub": "Wooden lid & spoon",
+"cat": "moon",
+"finish": "Glazed",
+"d": "",
+"f": []
+},
+{
+"key": "c-heritage-design-3-pcs-salad-set-grey",
+"src": "clyra",
+"n": "Heritage Design 3 Pcs. Salad Set · Grey",
+"sub": "Hand-painted · Grey",
+"cat": "salad",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-water-jug-400-ml",
+"src": "clyra",
+"n": "Water Jug · 400 ml",
+"sub": "Hand-painted",
+"cat": "serve",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "m-bath-set-01",
+"src": "mark",
+"n": "Bath Sets",
+"sub": "Bath sets · stoneware & porcelain",
+"cat": "bath",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bath sets with a smooth refined finish. Available in different sizes, combinations and colours to add style to any bathroom.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2006",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L2006"
+},
+{
+"key": "m-dinner-set-08",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-03",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-dip-bowls-02",
+"src": "mark",
+"n": "Dip Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain dip bowls for professional hospitality use, in different sizes for sauces, condiments and elegant food presentation.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4879",
+"src": "lawa",
+"n": "Ceramic Jar",
+"sub": "Storage jars",
+"cat": "jars",
+"finish": "Glazed",
+"d": "Ceramic storage jar for the kitchen.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4879"
+},
+{
+"key": "l-6046",
+"src": "lawa",
+"n": "Good Day Toast Tray",
+"sub": "Kitchenware",
+"cat": "kitchen",
+"finish": "Glazed",
+"d": "Ceramic kitchenware for cooking, serving and storage.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L6046"
+},
+{
+"key": "m-cups-and-mugs-07",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2446",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 9″ · D 6″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″ · D 6″"
+],
+"code": "L2446"
+},
+{
+"key": "c-painted-jar-set-of-4-folk",
+"src": "clyra",
+"n": "Hand-painted Jar Set of 4 · Folk",
+"sub": "Hand-painted · Folk",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-oil-vinegar-bottle-black",
+"src": "clyra",
+"n": "Oil & Vinegar Bottle · Black",
+"sub": "Hand-painted · Black",
+"cat": "bottles",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-heritage-design-3-pcs-handi-set-grey",
+"src": "clyra",
+"n": "Heritage Design 3 Pcs. Handi Set · Grey",
+"sub": "Hand-painted · Grey",
+"cat": "handi",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-tea-sugar-coffee-jar-400-ml",
+"src": "clyra",
+"n": "Tea, Sugar & Coffee Jar Set · 400 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-moon-coffee-jar",
+"src": "clyra",
+"n": "Moon Pattern Coffee Jar",
+"sub": "Wooden lid & spoon",
+"cat": "moon",
+"finish": "Glazed",
+"d": "",
+"f": []
+},
+{
+"key": "c-mini-heart-design-3-pcs-salad-set",
+"src": "clyra",
+"n": "Mini Heart Design 3 Pcs. Salad Set",
+"sub": "Hand-painted",
+"cat": "salad",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-5625",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 10″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 10″"
+],
+"code": "L5625"
+},
+{
+"key": "m-bowls-02",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-09",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-coffee-mugs-06",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-jars-03",
+"src": "mark",
+"n": "Ceramic Storage Jars",
+"sub": "Storage jars · stoneware & porcelain",
+"cat": "jars",
+"finish": "Glazed",
+"d": "Stoneware and porcelain storage jars with a smooth refined finish and secure design. Available in different sizes, colours and styles for storage and décor.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-6216",
+"src": "lawa",
+"n": "Oil bottle",
+"sub": "Bottles, jugs & more",
+"cat": "kitchen",
+"finish": "Glazed",
+"d": "Ceramic serveware for the dining table and kitchen.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L6216"
+},
+{
+"key": "m-cups-and-mugs-05",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2291",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 7″ · D 6.5″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7″ · D 6.5″"
+],
+"code": "L2291"
+},
+{
+"key": "c-mughal-floral-art-jar-400-ml",
+"src": "clyra",
+"n": "Mughal Floral Art Jar · 400 ml",
+"sub": "Hand-painted",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-oil-vinegar-bottle-yellow",
+"src": "clyra",
+"n": "Oil & Vinegar Bottle · Yellow",
+"sub": "Hand-painted · Yellow",
+"cat": "bottles",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-heritage-design-3-pcs-handi-set-blue",
+"src": "clyra",
+"n": "Heritage Design 3 Pcs. Handi Set · Blue",
+"sub": "Hand-painted · Blue",
+"cat": "handi",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-tea-coffee-jar-500-ml",
+"src": "clyra",
+"n": "Tea & Coffee Jar · 500 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-moon-tea-sugar-salt-combo",
+"src": "clyra",
+"n": "Moon Pattern Tea, Sugar & Salt Jars",
+"sub": "Wooden lid & spoon",
+"cat": "moon",
+"finish": "Glazed",
+"d": "",
+"f": []
+},
+{
+"key": "c-heart-design-3-pcs-salad-set",
+"src": "clyra",
+"n": "Heart Design 3 Pcs. Salad Set",
+"sub": "Hand-painted",
+"cat": "salad",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-3935",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L3935"
+},
+{
+"key": "m-bowls-07",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-04",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-03",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-jars-04",
+"src": "mark",
+"n": "Ceramic Storage Jars",
+"sub": "Storage jars · stoneware & porcelain",
+"cat": "jars",
+"finish": "Glazed",
+"d": "Stoneware and porcelain storage jars with a smooth refined finish and secure design. Available in different sizes, colours and styles for storage and décor.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-coffee-time-01",
+"src": "mark",
+"n": "Gold Line Coffee Cup & Saucer",
+"sub": "Gold line · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium ceramic coffee cup and saucer set with elegant gold line detailing. Perfect for serving coffee in style at home, cafés, hotels and fine dining spaces.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2125",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 14″ · D 8″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 14″ · D 8″"
+],
+"code": "L2125"
+},
+{
+"key": "c-jaipuri-painting-jar-yellow",
+"src": "clyra",
+"n": "Jaipuri Painting Jar · Yellow",
+"sub": "Hand-painted · Yellow",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-oil-vinegar-bottle-blue",
+"src": "clyra",
+"n": "Oil & Vinegar Bottle · Blue",
+"sub": "Hand-painted · Blue",
+"cat": "bottles",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-heritage-design-3-pcs-handi-set-green",
+"src": "clyra",
+"n": "Heritage Design 3 Pcs. Handi Set · Green",
+"sub": "Hand-painted · Green",
+"cat": "handi",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-tree-design-jar",
+"src": "clyra",
+"n": "Tree Design Jar",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-moon-pattern-set-of-4",
+"src": "clyra",
+"n": "Moon Pattern Jar Set of 4 with Tray",
+"sub": "Wooden lid & spoon",
+"cat": "moon",
+"finish": "Glazed",
+"d": "",
+"f": []
+},
+{
+"key": "c-heritage-design-3-pcs-salad-set-yellow",
+"src": "clyra",
+"n": "Heritage Design 3 Pcs. Salad Set · Yellow",
+"sub": "Hand-painted · Yellow",
+"cat": "salad",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-5654",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 11″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 11″"
+],
+"code": "L5654"
+},
+{
+"key": "m-bowls-06",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-07",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-03",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-jars-05",
+"src": "mark",
+"n": "Ceramic Storage Jars",
+"sub": "Storage jars · stoneware & porcelain",
+"cat": "jars",
+"finish": "Glazed",
+"d": "Stoneware and porcelain storage jars with a smooth refined finish and secure design. Available in different sizes, colours and styles for storage and décor.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-6218",
+"src": "lawa",
+"n": "Flower mug",
+"sub": "Mugs",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Ceramic mug for tea, coffee and everyday use.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L6218"
+},
+{
+"key": "l-2300",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 7.5″ · D 6.5″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7.5″ · D 6.5″"
+],
+"code": "L2300"
+},
+{
+"key": "c-painted-jar-set-of-4-floral",
+"src": "clyra",
+"n": "Hand-painted Jar Set of 4 · Floral",
+"sub": "Hand-painted · Floral",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-oil-vinegar-bottle-brown",
+"src": "clyra",
+"n": "Oil & Vinegar Bottle · Brown",
+"sub": "Hand-painted · Brown",
+"cat": "bottles",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-heritage-design-4-pcs-bowl-set-grey",
+"src": "clyra",
+"n": "Heritage Design 4 Pcs. Bowl Set · Grey",
+"sub": "Hand-painted · Grey",
+"cat": "handi",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-heart-balloon-star-jar-combo",
+"src": "clyra",
+"n": "Heart Balloon & Star Jar Combo",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-moon-tea-sugar-combo",
+"src": "clyra",
+"n": "Moon Pattern Tea & Sugar Jars",
+"sub": "Wooden lid & spoon",
+"cat": "moon",
+"finish": "Glazed",
+"d": "",
+"f": []
+},
+{
+"key": "c-strawberry-design-3-pcs",
+"src": "clyra",
+"n": "Strawberry Design 3 Pcs. Salad Set",
+"sub": "Hand-painted",
+"cat": "salad",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-3782",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L3782"
+},
+{
+"key": "m-plates-10",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-05",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-platters-09",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-jars-06",
+"src": "mark",
+"n": "Ceramic Storage Jars",
+"sub": "Storage jars · stoneware & porcelain",
+"cat": "jars",
+"finish": "Glazed",
+"d": "Stoneware and porcelain storage jars with a smooth refined finish and secure design. Available in different sizes, colours and styles for storage and décor.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cups-and-mugs-01",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2302",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 5.5″ · D 9″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 5.5″ · D 9″"
+],
+"code": "L2302"
+},
+{
+"key": "c-mughal-floral-art-jar",
+"src": "clyra",
+"n": "Mughal Floral Art Jar",
+"sub": "Hand-painted",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-oil-vinegar-bottle-pink",
+"src": "clyra",
+"n": "Oil & Vinegar Bottle · Pink",
+"sub": "Hand-painted · Pink",
+"cat": "bottles",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-sugar-jar-400-ml",
+"src": "clyra",
+"n": "Sugar Jar · 400 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-moon-salt-jar",
+"src": "clyra",
+"n": "Moon Pattern Salt Jar · 550 ml",
+"sub": "Wooden lid & spoon",
+"cat": "moon",
+"finish": "Glazed",
+"d": "",
+"f": []
+},
+{
+"key": "c-floral-design-3-pcs-salad-set",
+"src": "clyra",
+"n": "Floral Design 3 Pcs. Salad Set",
+"sub": "Hand-painted",
+"cat": "salad",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-4836",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4836"
+},
+{
+"key": "m-bowls-08",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-02",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-soup-bowls-01",
+"src": "mark",
+"n": "Soup Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain soup bowls for professional hospitality use. Available in different sizes, colours and variants for soups, broths and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-jars-01",
+"src": "mark",
+"n": "Ceramic Storage Jars",
+"sub": "Storage jars · stoneware & porcelain",
+"cat": "jars",
+"finish": "Glazed",
+"d": "Stoneware and porcelain storage jars with a smooth refined finish and secure design. Available in different sizes, colours and styles for storage and décor.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-goldline-mugs-02",
+"src": "mark",
+"n": "Gold Line Mugs",
+"sub": "Gold line · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Gold line mugs for milk and coffee.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2285",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 8″ · D 9.5″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″ · D 9.5″"
+],
+"code": "L2285"
+},
+{
+"key": "c-mughal-art-jar-black",
+"src": "clyra",
+"n": "Mughal Art Jar · Black",
+"sub": "Hand-painted · Black",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-sugar-jar-500-ml",
+"src": "clyra",
+"n": "Sugar Jar · 500 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "m-wall-plates-01",
+"src": "mark",
+"n": "Wall Plates",
+"sub": "Wall plates · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Decorative stoneware and porcelain wall plates that add artistry to any space, in a variety of styles, patterns and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-plates-01",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-06",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-dip-bowls-04",
+"src": "mark",
+"n": "Dip Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain dip bowls for professional hospitality use, in different sizes for sauces, condiments and elegant food presentation.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-jars-02",
+"src": "mark",
+"n": "Ceramic Storage Jars",
+"sub": "Storage jars · stoneware & porcelain",
+"cat": "jars",
+"finish": "Glazed",
+"d": "Stoneware and porcelain storage jars with a smooth refined finish and secure design. Available in different sizes, colours and styles for storage and décor.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cups-and-mugs-03",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2289",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 6″ · D 7″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6″ · D 7″"
+],
+"code": "L2289"
+},
+{
+"key": "c-mughal-art-jar-green",
+"src": "clyra",
+"n": "Mughal Art Jar · Green",
+"sub": "Hand-painted · Green",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-coffee-jar-500-ml",
+"src": "clyra",
+"n": "Coffee Jar · 500 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-3948",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L3948"
+},
+{
+"key": "m-bowls-01",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-10",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-07",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4873",
+"src": "lawa",
+"n": "Ceramic Jar",
+"sub": "Storage jars",
+"cat": "jars",
+"finish": "Glazed",
+"d": "Ceramic storage jar for the kitchen.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4873"
+},
+{
+"key": "m-cups-and-mugs-08",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2337",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 11″ · D 8″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 11″ · D 8″"
+],
+"code": "L2337"
+},
+{
+"key": "c-jaipuri-painting-jar-aqua",
+"src": "clyra",
+"n": "Jaipuri Painting Jar · Aqua",
+"sub": "Hand-painted · Aqua",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-coffee-jar-400ml",
+"src": "clyra",
+"n": "Coffee Jar · 400 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-5650",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 12″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 12″"
+],
+"code": "L5650"
+},
+{
+"key": "m-bowls-05",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-01",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-dip-bowls-03",
+"src": "mark",
+"n": "Dip Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain dip bowls for professional hospitality use, in different sizes for sauces, condiments and elegant food presentation.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cups-and-mugs-09",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2537",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 6″ · D 7″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6″ · D 7″"
+],
+"code": "L2537"
+},
+{
+"key": "c-mughal-art-jar-red",
+"src": "clyra",
+"n": "Mughal Art Jar · Red",
+"sub": "Hand-painted · Red",
+"cat": "art",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "c-matka-jar-cherry",
+"src": "clyra",
+"n": "Matka Jar · Cherry",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-3936",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 10″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 10″"
+],
+"code": "L3936"
+},
+{
+"key": "m-bowls-09",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-gifting-08",
+"src": "mark",
+"n": "Gift Sets",
+"sub": "Gift sets · stoneware & porcelain",
+"cat": "gift",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain gifting products, thoughtfully crafted to make every occasion special. Available in different sizes, colours and styles.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-coffee-mugs-03",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cups-and-mugs-10",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2288",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 11″ · D 9″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 11″ · D 9″"
+],
+"code": "L2288"
+},
+{
+"key": "c-heart-balloon-jar",
+"src": "clyra",
+"n": "Heart Balloon Jar",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "m-vases-09",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4997",
+"src": "lawa",
+"n": "Ceramic Bowl",
+"sub": "Bowls",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Ceramic bowl for serving and everyday meals.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4997"
+},
+{
+"key": "m-platters-07",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cups-and-mugs-02",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3594",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 5″ · D 7″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 5″ · D 7″"
+],
+"code": "L3594"
+},
+{
+"key": "c-tea-jar",
+"src": "clyra",
+"n": "Tea Jar",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-4205",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L4205"
+},
+{
+"key": "m-bowls-10",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-02",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2123",
+"src": "lawa",
+"n": "Ceramic Mug",
+"sub": "Mugs",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Ceramic mug for tea, coffee and everyday use.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L2123"
+},
+{
+"key": "l-2282",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 10″ · D 8″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 10″ · D 8″"
+],
+"code": "L2282"
+},
+{
+"key": "c-flower-leaf-jar",
+"src": "clyra",
+"n": "Flower Leaf Jar",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-2442",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L2442"
+},
+{
+"key": "m-dinner-set-01",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-platters-02",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cups-and-mugs-04",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2293",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 6.5″ · D 9″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6.5″ · D 9″"
+],
+"code": "L2293"
+},
+{
+"key": "c-tea-jar-500-ml",
+"src": "clyra",
+"n": "Tea Jar · 500 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-3937",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L3937"
+},
+{
+"key": "m-plates-03",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-10",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cups-and-mugs-06",
+"src": "mark",
+"n": "Cups & Mugs",
+"sub": "Mugs · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cups and mugs, designed for everyday dining and warm beverage moments. Durable craftsmanship and a smooth refined finish, available in different sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2546",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 10″ · D 15″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 10″ · D 15″"
+],
+"code": "L2546"
+},
+{
+"key": "c-tea-sugar-coffee-jar",
+"src": "clyra",
+"n": "Tea, Sugar & Coffee Jar Set",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-3779",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L3779"
+},
+{
+"key": "l-4927",
+"src": "lawa",
+"n": "Plate & Dal Bowl Set",
+"sub": "Dinner sets",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Ceramic platter for serving snacks and mains.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4927"
+},
+{
+"key": "m-coffee-mugs-01",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-christmas-goldlinemugs-01",
+"src": "mark",
+"n": "Christmas Gold Line Mug",
+"sub": "Gold line · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "The ShineBright Christmas mug from the Gold Edition.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2299",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 8″ · D 6″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″ · D 6″"
+],
+"code": "L2299"
+},
+{
+"key": "c-matte-tea-coffee-sugar-set",
+"src": "clyra",
+"n": "Matte Tea, Coffee & Sugar Canister Set",
+"sub": "Wooden lid & spoon",
+"cat": "jars",
+"finish": "Glazed",
+"d": "",
+"f": []
+},
+{
+"key": "l-5651",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L5651"
+},
+{
+"key": "m-plates-09",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-05",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-goldline-mugs-01",
+"src": "mark",
+"n": "Gold Line Mugs",
+"sub": "Gold line · stoneware & porcelain",
+"cat": "mugs",
+"finish": "Glazed",
+"d": "Gold line mugs for milk and coffee.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3755",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 4″ · D 3″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 4″ · D 3″"
+],
+"code": "L3755"
+},
+{
+"key": "c-star-jar",
+"src": "clyra",
+"n": "Star Jar",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-4842",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4842"
+},
+{
+"key": "m-dinner-set-05",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-platters-08",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2283",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 5.5″ · D 5″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 5.5″ · D 5″"
+],
+"code": "L2283"
+},
+{
+"key": "c-sugar-coffee-jar-500-ml",
+"src": "clyra",
+"n": "Sugar & Coffee Jar · 500 ml",
+"sub": "Hand-painted",
+"cat": "jars",
+"finish": "Hand-painted",
+"d": "",
+"f": []
+},
+{
+"key": "l-5644",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 12″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 12″"
+],
+"code": "L5644"
+},
+{
+"key": "m-dinner-set-02",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-coffee-mugs-02",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3754",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 3″ · D 3″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 3″ · D 3″"
+],
+"code": "L3754"
+},
+{
+"key": "l-5646",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 6″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6″"
+],
+"code": "L5646"
+},
+{
+"key": "m-bowls-04",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-soup-bowls-04",
+"src": "mark",
+"n": "Soup Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain soup bowls for professional hospitality use. Available in different sizes, colours and variants for soups, broths and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-2280",
+"src": "lawa",
+"n": "Ceramic Planter",
+"sub": "Planters · H 6.5″ · D 9.5″",
+"cat": "planters",
+"finish": "Glazed",
+"d": "Ceramic planter for indoor plants.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6.5″ · D 9.5″"
+],
+"code": "L2280"
+},
+{
+"key": "l-4204",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 10″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 10″"
+],
+"code": "L4204"
+},
+{
+"key": "m-dinner-set-04",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-04",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-vases-10",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-plates-04",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-08",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4841",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4841"
+},
+{
+"key": "m-goldline-dinnerset-03",
+"src": "mark",
+"n": "Royal Gold Porcelain Dinner Set",
+"sub": "Gold Edition · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Elevate your dining experience with this premium porcelain dinner set, beautifully finished with elegant gold detailing. Crafted for luxury, durability, and timeless appeal, it is perfect for fine dining and special occasions.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-01",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-wall-plates-03",
+"src": "mark",
+"n": "Wall Plates",
+"sub": "Wall plates · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Decorative stoneware and porcelain wall plates that add artistry to any space, in a variety of styles, patterns and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-dinnersets21pcs-01",
+"src": "mark",
+"n": "Daisy Slate Dinner Set · 21 pcs",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "An elegant 21-piece dinner set in the Daisy Slate design.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-coffee-mugs-07",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3776",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 7″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7″"
+],
+"code": "L3776"
+},
+{
+"key": "m-plates-08",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-platters-04",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-vases-01",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-plates-02",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-coffee-mugs-05",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-vases-07",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-midnightleafdinerset21pcs-01",
+"src": "mark",
+"n": "Midnight Leaf Dinner Set · 21 pcs",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "An elegant dinner set with leaf accents, designed to bring a bold yet refined touch to modern dining. Perfect for those who love minimal luxury with a statement look.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-platters-05",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4210",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L4210"
+},
+{
+"key": "m-plates-05",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-01",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-vases-05",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-plates-07",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-07",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-vases-04",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-royaldinnerset21pcs-01",
+"src": "mark",
+"n": "Royal Bloom Dinner Set · 21 pcs",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "A bold black and cream dinner set with rich geometric elegance, created to deliver a luxurious dining experience with a strong modern statement.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-coffee-mugs-09",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-5648",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L5648"
+},
+{
+"key": "m-bowls-03",
+"src": "mark",
+"n": "Bowls",
+"sub": "Bowls · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain bowls, crafted for everyday dining and special occasions. Each bowl offers exceptional durability and a refined smooth finish, and comes in different sizes for serving meals with style.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-soup-bowls-05",
+"src": "mark",
+"n": "Soup Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain soup bowls for professional hospitality use. Available in different sizes, colours and variants for soups, broths and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4417",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L4417"
+},
+{
+"key": "m-goldline-dinnerset-01",
+"src": "mark",
+"n": "Royal Gold Porcelain Dinner Set",
+"sub": "Gold Edition · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Elevate your dining experience with this premium porcelain dinner set, beautifully finished with elegant gold detailing. Crafted for luxury, durability, and timeless appeal, it is perfect for fine dining and special occasions.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-06",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4416",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L4416"
+},
+{
+"key": "m-dinner-set-09",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-coffee-mugs-04",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-vases-02",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-plates-06",
+"src": "mark",
+"n": "Plates",
+"sub": "Plates · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain plates, crafted for durability, refined elegance, and everyday use. Available in different sizes and styles, with exceptional strength, a smooth finish, and long-lasting quality for every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-soup-bowls-03",
+"src": "mark",
+"n": "Soup Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain soup bowls for professional hospitality use. Available in different sizes, colours and variants for soups, broths and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4834",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4834"
+},
+{
+"key": "m-dinner-set-10",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-04",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3942",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 7″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7″"
+],
+"code": "L3942"
+},
+{
+"key": "l-4944",
+"src": "lawa",
+"n": "Plate & Dal Bowl Set",
+"sub": "Dinner sets",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Ceramic platter for serving snacks and mains.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4944"
+},
+{
+"key": "m-horeca-sets-08",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-5622",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 6″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6″"
+],
+"code": "L5622"
+},
+{
+"key": "m-dinner-set-03",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-02",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3796",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 7.5″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7.5″"
+],
+"code": "L3796"
+},
+{
+"key": "m-dinner-set-06",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-10",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3941",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 6″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6″"
+],
+"code": "L3941"
+},
+{
+"key": "m-goldline-dinnerset-02",
+"src": "mark",
+"n": "Royal Gold Porcelain Dinner Set",
+"sub": "Gold Edition · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Elevate your dining experience with this premium porcelain dinner set, beautifully finished with elegant gold detailing. Crafted for luxury, durability, and timeless appeal, it is perfect for fine dining and special occasions.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-soup-bowls-02",
+"src": "mark",
+"n": "Soup Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain soup bowls for professional hospitality use. Available in different sizes, colours and variants for soups, broths and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-1976",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 6″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6″"
+],
+"code": "L1976"
+},
+{
+"key": "m-dinner-set-07",
+"src": "mark",
+"n": "Dinner Sets",
+"sub": "Dinner sets · stoneware & porcelain",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Experience elegant dining with our premium stoneware and porcelain dinner sets. Each set is thoughtfully crafted for durability, refined aesthetics, and everyday convenience. Available in different colours and combinations, they bring style, strength, and long-lasting quality to every meal.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-09",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4838",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4838"
+},
+{
+"key": "l-4936",
+"src": "lawa",
+"n": "Plate & Dal Bowl Set",
+"sub": "Dinner sets",
+"cat": "dining",
+"finish": "Glazed",
+"d": "Ceramic platter for serving snacks and mains.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4936"
+},
+{
+"key": "m-soup-bowls-06",
+"src": "mark",
+"n": "Soup Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain soup bowls for professional hospitality use. Available in different sizes, colours and variants for soups, broths and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-vases-08",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-horeca-sets-06",
+"src": "mark",
+"n": "Horeca Sets",
+"sub": "Horeca sets · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain sets for hotels, restaurants and cafés, crafted for professional durability and refined presentation. Available in different colours and combinations.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-5655",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 6″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6″"
+],
+"code": "L5655"
+},
+{
+"key": "m-platters-10",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-5656",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 7″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7″"
+],
+"code": "L5656"
+},
+{
+"key": "m-platters-03",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-5652",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L5652"
+},
+{
+"key": "m-coffee-mugs-08",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4839",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4839"
+},
+{
+"key": "m-dip-bowls-01",
+"src": "mark",
+"n": "Dip Bowls",
+"sub": "Soup & dip bowls · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain dip bowls for professional hospitality use, in different sizes for sauces, condiments and elegant food presentation.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-5645",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L5645"
+},
+{
+"key": "m-platters-01",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-vases-06",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "m-cup-and-soucers-09",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4404",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 11″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 11″"
+],
+"code": "L4404"
+},
+{
+"key": "m-coffee-mugs-10",
+"src": "mark",
+"n": "Coffee Mugs",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain coffee mugs for cafés and hotels, with a refined smooth finish and excellent heat retention. Available in different sizes and colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3915",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L3915"
+},
+{
+"key": "m-platters-06",
+"src": "mark",
+"n": "Platters",
+"sub": "Platters · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain platters for professional hospitality use. Superior durability and a smooth elegant finish, in different sizes for appetisers, mains and signature dishes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3769",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 7″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7″"
+],
+"code": "L3769"
+},
+{
+"key": "m-cup-and-soucers-05",
+"src": "mark",
+"n": "Cups & Saucers",
+"sub": "Mugs, cups & saucers · stoneware & porcelain",
+"cat": "horeca",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain cup and saucer sets for professional hospitality use, with excellent heat retention. Available in different colours.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-4218",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 11″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 11″"
+],
+"code": "L4218"
+},
+{
+"key": "l-5657",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 10″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 10″"
+],
+"code": "L5657"
+},
+{
+"key": "l-5629",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 10″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 10″"
+],
+"code": "L5629"
+},
+{
+"key": "l-3781",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L3781"
+},
+{
+"key": "l-5624",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L5624"
+},
+{
+"key": "l-4843",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4843"
+},
+{
+"key": "m-vases-03",
+"src": "mark",
+"n": "Vases",
+"sub": "Vases · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Premium stoneware and porcelain vases that bring elegance and timeless charm to your home. Handcrafted with a refined finish, in various styles and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3926",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L3926"
+},
+{
+"key": "l-5649",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 5″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 5″"
+],
+"code": "L5649"
+},
+{
+"key": "l-4212",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L4212"
+},
+{
+"key": "l-4415",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 7″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7″"
+],
+"code": "L4415"
+},
+{
+"key": "l-5647",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 8″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 8″"
+],
+"code": "L5647"
+},
+{
+"key": "l-4837",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4837"
+},
+{
+"key": "l-4209",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 7″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 7″"
+],
+"code": "L4209"
+},
+{
+"key": "l-5653",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 6″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 6″"
+],
+"code": "L5653"
+},
+{
+"key": "m-wall-plates-02",
+"src": "mark",
+"n": "Wall Plates",
+"sub": "Wall plates · stoneware & porcelain",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Decorative stoneware and porcelain wall plates that add artistry to any space, in a variety of styles, patterns and sizes.",
+"f": [
+"No Bone China",
+"100% Premium Stoneware & Porcelain",
+"Handcrafted",
+"Microwave Safe",
+"Oven Safe"
+]
+},
+{
+"key": "l-3947",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 11″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 11″"
+],
+"code": "L3947"
+},
+{
+"key": "l-4835",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4835"
+},
+{
+"key": "l-3939",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L3939"
+},
+{
+"key": "l-3995",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 9″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 9″"
+],
+"code": "L3995"
+},
+{
+"key": "l-4823",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja"
+],
+"code": "L4823"
+},
+{
+"key": "l-4403",
+"src": "lawa",
+"n": "Ceramic Vase",
+"sub": "Vases · H 10″",
+"cat": "decor",
+"finish": "Glazed",
+"d": "Ceramic vase for flowers and home décor.",
+"f": [
+"Ceramic",
+"Handcrafted in Khurja",
+"H 10″"
+],
+"code": "L4403"
+}
+],
+"stories": [
+"c-oil-vinegar-bottle-sunflower",
+"c-tea-sugar-jar-500-ml",
+"c-heritage-design-3-pcs-salad-set-grey",
+"m-bath-set-01",
+"m-dinner-set-08",
+"m-dip-bowls-02",
+"l-6046",
+"l-2446",
+"c-oil-vinegar-bottle-black",
+"c-tea-sugar-coffee-jar-400-ml",
+"c-mini-heart-design-3-pcs-salad-set",
+"m-bowls-02",
+"m-coffee-mugs-06",
+"l-6216",
+"l-2291",
+"c-oil-vinegar-bottle-yellow",
+"c-tea-coffee-jar-500-ml",
+"c-heart-design-3-pcs-salad-set",
+"m-bowls-07",
+"m-cup-and-soucers-03",
+"m-coffee-time-01",
+"c-jaipuri-painting-jar-yellow",
+"c-heritage-design-3-pcs-handi-set-green",
+"c-moon-pattern-set-of-4",
+"l-5654",
+"m-gifting-07",
+"m-jars-05",
+"l-2300",
+"c-oil-vinegar-bottle-brown",
+"c-heart-balloon-star-jar-combo",
+"c-strawberry-design-3-pcs",
+"m-plates-10",
+"m-platters-09",
+"m-cups-and-mugs-01",
+"c-mughal-floral-art-jar",
+"c-sugar-jar-400-ml",
+"c-floral-design-3-pcs-salad-set",
+"m-bowls-08",
+"m-soup-bowls-01",
+"m-goldline-mugs-02",
+"c-mughal-art-jar-black",
+"m-wall-plates-01",
+"m-gifting-06",
+"m-jars-02",
+"l-2289",
+"c-coffee-jar-500-ml",
+"m-bowls-01",
+"m-horeca-sets-07",
+"m-cups-and-mugs-08",
+"c-jaipuri-painting-jar-aqua",
+"l-5650",
+"m-gifting-01",
+"m-cups-and-mugs-09",
+"c-mughal-art-jar-red",
+"l-3936",
+"m-gifting-08",
+"m-cups-and-mugs-10",
+"c-heart-balloon-jar",
+"l-4997",
+"m-cups-and-mugs-02",
+"c-tea-jar",
+"m-bowls-10",
+"l-2123",
+"c-flower-leaf-jar",
+"m-dinner-set-01",
+"m-cups-and-mugs-04",
+"c-tea-jar-500-ml",
+"m-plates-03",
+"m-cups-and-mugs-06",
+"c-tea-sugar-coffee-jar",
+"l-4927",
+"m-christmas-goldlinemugs-01",
+"c-matte-tea-coffee-sugar-set",
+"m-plates-09",
+"m-goldline-mugs-01",
+"c-star-jar",
+"m-dinner-set-05",
+"l-2283",
+"l-5644",
+"m-coffee-mugs-02",
+"l-5646",
+"m-soup-bowls-04",
+"l-4204",
+"m-horeca-sets-04",
+"m-plates-04",
+"l-4841",
+"m-cup-and-soucers-01",
+"m-dinnersets21pcs-01",
+"l-3776",
+"m-platters-04",
+"m-plates-02",
+"m-vases-07",
+"m-platters-05",
+"m-plates-05",
+"m-vases-05",
+"m-cup-and-soucers-07",
+"m-royaldinnerset21pcs-01",
+"l-5648",
+"m-soup-bowls-05",
+"m-goldline-dinnerset-01",
+"l-4416",
+"m-coffee-mugs-04",
+"m-plates-06",
+"l-4834",
+"m-cup-and-soucers-04",
+"l-4944",
+"l-5622",
+"m-horeca-sets-02",
+"m-dinner-set-06",
+"l-3941",
+"m-soup-bowls-02",
+"m-dinner-set-07",
+"l-4838",
+"m-soup-bowls-06",
+"m-horeca-sets-06",
+"m-platters-10",
+"m-platters-03",
+"m-coffee-mugs-08",
+"m-dip-bowls-01",
+"m-platters-01",
+"m-cup-and-soucers-09",
+"m-coffee-mugs-10",
+"m-platters-06",
+"m-cup-and-soucers-05",
+"l-5657",
+"l-3781",
+"l-4843",
+"l-3926",
+"l-4212",
+"l-5647",
+"l-4209",
+"m-wall-plates-02",
+"l-4835",
+"l-3995",
+"l-4403"
+]
+}
