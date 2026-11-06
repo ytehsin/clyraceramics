@@ -730,9 +730,16 @@ document.getElementById("qcopy").addEventListener("click",e=>copy(document.getEl
 const val=id=>document.getElementById(id).value.trim();
 
 const FORM_URL="https://formsubmit.co/ajax/clyraceramics@gmail.com";
+const W3F_KEY=""; /* Web3Forms access key: when set, enquiries go through Web3Forms first */
+async function post(url,data,ms){
+  const c=new AbortController(),t=setTimeout(()=>c.abort(),ms);
+  try{const r=await fetch(url,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(data),signal:c.signal});
+    const j=await r.json().catch(()=>({}));return r.ok&&String(j.success)!=="false"}catch(e){return false}finally{clearTimeout(t)}
+}
 async function sendMail(data){
-  try{const r=await fetch(FORM_URL,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(data)});
-    const j=await r.json().catch(()=>({}));return r.ok&&String(j.success)!=="false"}catch(e){return false}
+  if(W3F_KEY){const d={access_key:W3F_KEY,subject:data._subject,from_name:"clyraceramics.in",botcheck:""};
+    for(const k in data)if(k[0]!=="_")d[k]=data[k];if(await post("https://api.web3forms.com/submit",d,12000))return true}
+  return post(FORM_URL,data,12000);
 }
 function fallback(text,pre,mail,wa,box){
   document.getElementById(pre).textContent=text;
