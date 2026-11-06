@@ -485,8 +485,8 @@ footer .legal{grid-column:1/-1;border-top:1px solid #3a3d40;padding-top:20px;dis
         <h2>Let's get in touch</h2>
         <div class="info">
           <div class="ci"><span class="k">Email</span><div class="v"><a id="mail" href="mailto:clyraceramics@gmail.com">clyraceramics@gmail.com</a><button class="copy" type="button" data-copy="mail">Copy</button></div></div>
-          <div class="ci"><span class="k">Call us</span><div class="v"><a href="tel:+917983895342">+91 79838 95342</a></div><div class="v"><a href="tel:+918368691849">+91 83686 91849</a></div></div>
-          <div class="ci"><span class="k">WhatsApp</span><div class="v"><a href="https://wa.me/917983895342" target="_blank" rel="noopener">+91 79838 95342</a></div></div>
+          <div class="ci"><span class="k">Call · WhatsApp</span><div class="v"><a href="tel:+917983895342">+91 79838 95342</a><a class="wa-mini" href="https://wa.me/917983895342" target="_blank" rel="noopener" style="margin-left:10px;font-size:13px">WhatsApp</a></div></div>
+          <div class="ci"><span class="k">Call only</span><div class="v"><a href="tel:+918368691849">+91 83686 91849</a></div></div>
           <div class="ci"><span class="k">Follow us</span><div class="v social" style="color:var(--ink)"><a href="https://www.instagram.com/clyraceramics/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a><a href="https://www.youtube.com/@ClyraCeramics" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-3.2.5-4.8s-.1-3.2-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></svg></a></div></div>
         </div>
         <div class="sel"><span class="ci"><span class="k">Your enquiry</span></span><div id="sel"></div></div>
@@ -731,7 +731,7 @@ document.getElementById("qcopy").addEventListener("click",e=>copy(document.getEl
 const val=id=>document.getElementById(id).value.trim();
 
 const FORM_URL="https://formsubmit.co/ajax/clyraceramics@gmail.com";
-const W3F_KEY=""; /* Web3Forms access key: when set, enquiries go through Web3Forms first */
+const W3F_KEY="87b29403-e154-41c2-b54b-67e8b008fdb2"; /* Web3Forms access key: when set, enquiries go through Web3Forms first */
 async function post(url,data,ms){
   const c=new AbortController(),t=setTimeout(()=>c.abort(),ms);
   try{const r=await fetch(url,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(data),signal:c.signal});
@@ -739,7 +739,7 @@ async function post(url,data,ms){
 }
 async function sendMail(data){
   if(W3F_KEY){const d={access_key:W3F_KEY,subject:data._subject,from_name:"clyraceramics.in",botcheck:""};
-    for(const k in data)if(k[0]!=="_")d[k]=data[k];if(await post("https://api.web3forms.com/submit",d,12000))return true}
+    for(const k in data)if(k[0]!=="_"&&data[k])d[k]=data[k];if(await post("https://api.web3forms.com/submit",d,12000))return true}
   return post(FORM_URL,data,12000);
 }
 function fallback(text,pre,mail,wa,box){
